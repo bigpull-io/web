@@ -154,7 +154,7 @@ export const simcParser = (input: string) => {
     }
 
     captureMessage('SimC: Unknown line', {
-      tags: {
+      extra: {
         line,
       },
     });
