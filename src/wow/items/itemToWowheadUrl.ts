@@ -3,9 +3,11 @@ import { type Item } from './Item';
 type ItemProp = keyof Item;
 
 const IGNORED_KEYS: ItemProp[] = ['id', 'name'];
-
+type Diff<T, U> = T extends U ? never : T;
 type MappingConfig = Partial<{
-  [K in ItemProp]: (value: Diff<Item[K], 'undefined'>) => [string, string];
+  [K in ItemProp]: (
+    value: Diff<Item[K], 'undefined'>
+  ) => [string, string | number | undefined];
 }>;
 
 // https://www.wowhead.com/item=193519?bonus=8836:8840:8902:9405:9376:8791:9379:8960:9366&ench=6607&ilvl=447&spec=266&crafted-stats=36:40&crafting-quality=8
@@ -32,13 +34,13 @@ export const itemtoWowheadUrl = (item: Item) => {
         return;
       }
 
-      const [mappedKey, mappedValue] = mapping(value as any);
+      const [mappedKey, mappedValue] = mapping(value as never);
 
       if (typeof mappedValue === 'undefined' || mappedValue === 'NaN') {
         return;
       }
 
-      url.searchParams.set(mappedKey, mappedValue);
+      url.searchParams.set(mappedKey, String(mappedValue));
     });
 
   return url.toString();

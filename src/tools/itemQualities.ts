@@ -1,4 +1,4 @@
-const { writeFile } = require('node:fs/promises');
+import { writeFile } from 'node:fs/promises';
 
 const url =
   'https://raw.githubusercontent.com/simulationcraft/simc/dragonflight/SpellDataDump/bonus_ids.txt';

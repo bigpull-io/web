@@ -1,4 +1,4 @@
-const { writeFile } = require('node:fs/promises');
+import { writeFile } from 'node:fs/promises';
 
 const url = `https://www.raidbots.com/static/data/live/bonuses.json?_t=${Date.now()}`;
 

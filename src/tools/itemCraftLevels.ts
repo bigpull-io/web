@@ -1,4 +1,4 @@
-const { writeFile } = require('node:fs/promises');
+import { writeFile } from 'node:fs/promises';
 
 (async () => {
   console.log('[ITEM CRAFT LEVELS] Writing to file...');

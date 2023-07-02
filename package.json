@@ -4,6 +4,7 @@
   "engines": {
     "node": ">=15.0.0"
   },
+  "type": "module",
   "private": true,
   "scripts": {
     "prepare": "panda codegen",
@@ -23,9 +24,9 @@
     "qwik": "qwik",
     "----- TOOLS": "-----",
     "tools": "npm-run-all --parallel tool:*",
-    "tool:item-craft-levels": "ts-node src/tools/itemCraftLevels.ts",
-    "tool:item-qualities": "ts-node src/tools/itemQualities.ts",
-    "tool:item-upgrade-trakcs": "ts-node src/tools/itemUpgradeTracks.ts"
+    "tool:item-craft-levels": "ts-node --esm src/tools/itemCraftLevels.ts",
+    "tool:item-qualities": "ts-node --esm src/tools/itemQualities.ts",
+    "tool:item-upgrade-trakcs": "ts-node --esm src/tools/itemUpgradeTracks.ts"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.1.5",
