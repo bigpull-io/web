@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "BigPull.io",
+  "short_name": "BigPull.io",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#00ff98",
+  "description": "Enhance your simc export before simming"
+}
