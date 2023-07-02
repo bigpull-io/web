@@ -8,6 +8,7 @@ import { RouterHead } from './components/router-head/RouterHead';
 
 import styles from './global.css?inline';
 import { Sentry } from './components/sentry/Sentry';
+import { Vercel } from './components/vercel/Vercel';
 
 export default component$(() => {
   /**
@@ -28,7 +29,10 @@ export default component$(() => {
       </head>
       <body lang="en">
         <Sentry />
+        <Vercel />
+
         <RouterOutlet />
+
         <ServiceWorkerRegister />
       </body>
     </QwikCityProvider>

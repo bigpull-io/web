@@ -3,6 +3,7 @@ import { css } from 'styled-system/css';
 import { simcParser } from './simcParser';
 import { EditorStoreContext } from './EditorStore';
 import { SectionTitle } from '~/components/selection-title/SectionTitle';
+import { captureException } from '~/components/sentry/capture';
 
 export const SimcInput = component$(() => {
   const store = useContext(EditorStoreContext);
@@ -24,7 +25,7 @@ export const SimcInput = component$(() => {
       }
     } catch (e) {
       // @TODO: display error
-      console.error('ERROR', e);
+      captureException(e);
     }
   });
 

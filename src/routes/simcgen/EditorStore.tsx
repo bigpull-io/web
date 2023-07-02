@@ -6,6 +6,7 @@ import {
   useStore,
   useVisibleTask$,
 } from '@builder.io/qwik';
+import { sendEvent } from '~/components/vercel/sendEvent';
 import { type Item } from '~/wow/items/Item';
 // import { mockInput } from './mock';
 
@@ -46,6 +47,16 @@ export const EditorStoreContextProvider = component$(() => {
     },
     { deep: true }
   );
+
+  useVisibleTask$(({ track }) => {
+    const currentStep = track(() => store.currentStep);
+
+    if (currentStep !== 'simc-input') {
+      sendEvent('ChangedStep', {
+        step: currentStep,
+      });
+    }
+  });
 
   useVisibleTask$(({ track }) => {
     const stringifiedOptions = track(() => JSON.stringify(store.options));

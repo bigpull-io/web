@@ -7,6 +7,7 @@ import { EditorStoreContext } from './EditorStore';
 import { EditableItem } from './EditableItem';
 import { Checkbox } from '~/components/inputs/Checkbox';
 import { CharacterInfo } from './CharacterInfo';
+import { sendEvent } from '~/components/vercel/sendEvent';
 
 const itemSlotToLabel = (slot: ItemSlot) => {
   if (slot.startsWith('finger')) {
@@ -123,6 +124,10 @@ const Options = component$(() => {
           checked={options.maximiseCraftingResources}
           onChange$={(value) => {
             options.maximiseCraftingResources = value;
+            sendEvent('ChangedOption', {
+              option: 'maximiseCraftingResources',
+              value,
+            });
           }}
         />
 
@@ -132,6 +137,10 @@ const Options = component$(() => {
           checked={options.showCraftedOnly}
           onChange$={(value) => {
             options.showCraftedOnly = value;
+            sendEvent('ChangedOption', {
+              option: 'showCraftedOnly',
+              value,
+            });
           }}
         />
       </section>

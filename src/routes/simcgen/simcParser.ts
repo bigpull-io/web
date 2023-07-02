@@ -1,3 +1,4 @@
+import { captureMessage } from '~/components/sentry/capture';
 import { craftingCurrencies as craftingCurrenciesData } from '~/wow/currencies/craftingCurrencies';
 import { type Item } from '~/wow/items/Item';
 import { getItemQuality } from '~/wow/items/getItemQuality';
@@ -152,7 +153,11 @@ export const simcParser = (input: string) => {
       return;
     }
 
-    console.log('Unknown line', JSON.stringify(line));
+    captureMessage('SimC: Unknown line', {
+      tags: {
+        line,
+      },
+    });
   });
 
   // Items in bags
