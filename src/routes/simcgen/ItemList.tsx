@@ -125,8 +125,7 @@ const Options = component$(() => {
           onChange$={(value) => {
             options.maximiseCraftingResources = value;
             sendEvent('ChangedOption', {
-              option: 'maximiseCraftingResources',
-              value,
+              option: `maximiseCraftingResources:${value}`,
             });
           }}
         />
@@ -138,8 +137,7 @@ const Options = component$(() => {
           onChange$={(value) => {
             options.showCraftedOnly = value;
             sendEvent('ChangedOption', {
-              option: 'showCraftedOnly',
-              value,
+              option: `showCraftedOnly:${value}`,
             });
           }}
         />
