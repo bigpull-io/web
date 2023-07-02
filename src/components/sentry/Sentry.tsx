@@ -16,7 +16,7 @@ export const Sentry = component$(() => {
               environment: ${
                 import.meta.env.PROD ? 'production' : 'development'
               },
-              release: ${import.meta.env.APP_VERSION},
+              release: "${import.meta.env.APP_VERSION}",
               allowUrls: [
                 "https://www.bigpull.io/",
               ],
