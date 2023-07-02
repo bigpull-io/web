@@ -8,7 +8,6 @@ export default component$(() => {
       <SimcGen />
 
       <script src="https://wow.zamimg.com/js/tooltips.js" />
-      <script dangerouslySetInnerHTML="window._APP_VERSION_ = import.meta.env.APP_VERSION;" />
     </section>
   );
 });
