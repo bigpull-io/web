@@ -32,6 +32,8 @@ export const Checkbox = component$<CheckboxProps>(
             class={css({
               width: 20,
               height: 20,
+              minWidth: 20,
+              minHeight: 20,
               mr: 12,
 
               background: 'background.2',

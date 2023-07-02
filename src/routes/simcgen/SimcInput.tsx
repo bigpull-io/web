@@ -19,9 +19,9 @@ export const SimcInput = component$(() => {
       store.equippedItems = equippedItems;
       store.bagItems = bagItems;
 
-      // setTimeout(() => {
-      store.currentStep = 'item-list';
-      // }, 1000);
+      if (character.name) {
+        store.currentStep = 'item-list';
+      }
     } catch (e) {
       // @TODO: display error
       console.error('ERROR', e);

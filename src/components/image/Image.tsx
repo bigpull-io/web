@@ -1,4 +1,5 @@
 import { component$ } from '@builder.io/qwik';
+import { css, cx } from 'styled-system/css';
 
 export interface ImageProps {
   src: string;
@@ -14,6 +15,12 @@ export const Image = component$<ImageProps>(({ src, alt, size, styles }) => (
     alt={alt}
     width={size}
     height={size}
-    class={styles}
+    class={cx(
+      styles,
+      css({
+        minWidth: size,
+        minHeight: size,
+      })
+    )}
   />
 ));

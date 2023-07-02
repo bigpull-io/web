@@ -7,6 +7,7 @@ import {
 import { RouterHead } from './components/router-head/RouterHead';
 
 import styles from './global.css?inline';
+import { Sentry } from './components/sentry/Sentry';
 
 export default component$(() => {
   /**
@@ -26,6 +27,7 @@ export default component$(() => {
         <RouterHead />
       </head>
       <body lang="en">
+        <Sentry />
         <RouterOutlet />
         <ServiceWorkerRegister />
       </body>

@@ -156,7 +156,8 @@ export const simcParser = (input: string) => {
   });
 
   // Items in bags
-  lines = input.split('### Gear from Bags')[1].split('###')[0].split('\n');
+  lines =
+    input.split('### Gear from Bags')[1]?.split('###')[0]?.split('\n') ?? [];
   lines.forEach((line, i) => {
     if (!line.trim().length) {
       return;
