@@ -1,5 +1,5 @@
-import { inject } from '@vercel/analytics';
 import { component$, useVisibleTask$ } from '@builder.io/qwik';
+import { inject } from '@vercel/analytics';
 
 const isEnabled = import.meta.env.PROD;
 

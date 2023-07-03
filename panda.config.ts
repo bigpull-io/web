@@ -1,4 +1,6 @@
 import { defineConfig } from '@pandacss/dev';
+import { Token } from '@pandacss/types';
+import { Recursive } from '@pandacss/types/dist/shared';
 
 const itemQuality = {
   poor: '#9d9d9d',
@@ -32,7 +34,7 @@ const toColorMap = (obj: Record<string, string>) =>
     acc[name] = { value };
 
     return acc;
-  }, {});
+  }, {} as Recursive<Token<string>>);
 
 const toNames = (prefix: string, obj: Record<string, string>) =>
   Object.keys(obj).map((key) => `${prefix}.${key}`);

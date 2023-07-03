@@ -1,10 +1,12 @@
 import { component$, useContext } from '@builder.io/qwik';
-import { pageWrapper } from '~/styles/pageWrapper';
-import { EditorStoreContext, EditorStoreContextProvider } from './EditorStore';
-import { SimcInput } from './SimcInput';
 // import { CharacterWithItems } from './CharacterWithItems';
 import { vstack } from 'styled-system/patterns';
+
+import { pageWrapper } from '~/styles/pageWrapper';
+
+import { EditorStoreContext, EditorStoreContextProvider } from './EditorStore';
 import { ItemList } from './ItemList';
+import { SimcInput } from './SimcInput';
 
 const Main = component$(() => {
   const { currentStep } = useContext(EditorStoreContext);

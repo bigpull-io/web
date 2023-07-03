@@ -1,9 +1,11 @@
 import { component$, useContext, useVisibleTask$ } from '@builder.io/qwik';
 import { css } from 'styled-system/css';
-import { simcParser } from './simcParser';
-import { EditorStoreContext } from './EditorStore';
+
 import { SectionTitle } from '~/components/selection-title/SectionTitle';
 import { captureException } from '~/components/sentry/capture';
+
+import { EditorStoreContext } from './EditorStore';
+import { simcParser } from './simcParser';
 
 export const SimcInput = component$(() => {
   const store = useContext(EditorStoreContext);

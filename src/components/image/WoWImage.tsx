@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
-import { type ImageProps, Image } from './Image';
+
+import { Image, type ImageProps } from './Image';
 
 interface WowImageProps extends Pick<ImageProps, 'alt' | 'size' | 'styles'> {
   type: 'class-spec' | 'craft-rank' | 'currency' | 'item';

@@ -1,9 +1,10 @@
 import { component$ } from '@builder.io/qwik';
-
-import { pageWrapper } from '../../styles/pageWrapper';
-import { BigPullLogo } from '~/components/logo/BigPullLogo';
 import { css, cx } from 'styled-system/css';
 import { flex } from 'styled-system/patterns';
+
+import { BigPullLogo } from '~/components/logo/BigPullLogo';
+
+import { pageWrapper } from '../../styles/pageWrapper';
 
 export const Header = component$(() => {
   return (

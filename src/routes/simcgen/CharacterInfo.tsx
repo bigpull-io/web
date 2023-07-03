@@ -1,9 +1,11 @@
 import { component$, useContext } from '@builder.io/qwik';
-import { EditorStoreContext } from './EditorStore';
-import { craftingCurrencies as craftingCurrenciesData } from '~/wow/currencies/craftingCurrencies';
 import { css, cx } from 'styled-system/css';
 import { flex } from 'styled-system/patterns';
+
 import { WoWImage } from '~/components/image/WoWImage';
+import { craftingCurrencies as craftingCurrenciesData } from '~/wow/currencies/craftingCurrencies';
+
+import { EditorStoreContext } from './EditorStore';
 
 export const CharacterInfo = component$(() => {
   const {

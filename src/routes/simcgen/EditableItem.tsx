@@ -1,7 +1,8 @@
 import { component$ } from '@builder.io/qwik';
-import { type Item } from '~/wow/items/Item';
 import { css, cx } from 'styled-system/css';
 import { flex } from 'styled-system/patterns';
+
+import { type Item } from '~/wow/items/Item';
 import { ItemComponent } from '~/wow/items/ItemComponent';
 
 // 8836/8840/8902/8960/9405/8846/9365

@@ -1,10 +1,12 @@
 import { component$, useContext } from '@builder.io/qwik';
-import { EditorStoreContext } from './EditorStore';
 import { css } from 'styled-system/css';
 import { flex } from 'styled-system/patterns';
-import { ItemComponent } from '~/wow/items/ItemComponent';
+
 import { SectionTitle } from '~/components/selection-title/SectionTitle';
+import { ItemComponent } from '~/wow/items/ItemComponent';
+
 import { CharacterInfo } from './CharacterInfo';
+import { EditorStoreContext } from './EditorStore';
 
 interface ItemSlotProps {
   slot: string;

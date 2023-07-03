@@ -1,9 +1,11 @@
 import { Slot, component$ } from '@builder.io/qwik';
-import { type Item } from './Item';
 import { css, cx } from 'styled-system/css';
 import { flex } from 'styled-system/patterns';
-import { itemtoWowheadUrl } from './itemToWowheadUrl';
+
 import { WoWImage } from '~/components/image/WoWImage';
+
+import { type Item } from './Item';
+import { itemtoWowheadUrl } from './itemToWowheadUrl';
 
 interface ItemComponentProps {
   styles?: string;

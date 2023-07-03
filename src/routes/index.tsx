@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+
 import { SimcGen } from './simcgen/SimcGen';
 
 export default component$(() => {

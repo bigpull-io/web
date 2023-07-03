@@ -1,6 +1,7 @@
 import qualities from '~/data/item-qualities.json';
-import { type ItemQuality } from './ItemQuality';
+
 import { type Item } from './Item';
+import { type ItemQuality } from './ItemQuality';
 
 export const getItemQuality = (item: Item): ItemQuality => {
   // Parse from bonus ids

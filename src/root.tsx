@@ -4,11 +4,11 @@ import {
   RouterOutlet,
   ServiceWorkerRegister,
 } from '@builder.io/qwik-city';
-import { RouterHead } from './components/router-head/RouterHead';
 
-import styles from './global.css?inline';
+import { RouterHead } from './components/router-head/RouterHead';
 import { Sentry } from './components/sentry/Sentry';
 import { Vercel } from './components/vercel/Vercel';
+import styles from './global.css?inline';
 
 export default component$(() => {
   /**

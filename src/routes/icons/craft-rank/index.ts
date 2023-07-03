@@ -1,4 +1,5 @@
 import { type RequestHandler } from '@builder.io/qwik-city';
+
 import { streamImage } from '../streamImage';
 
 const allowedRanks = ['1', '2', '3', '4', '5'];

@@ -1,5 +1,6 @@
 import { type RequestHandler } from '@builder.io/qwik-city';
 import { XMLParser } from 'fast-xml-parser';
+
 import { streamImage } from '../streamImage';
 
 const iconNames = new Map();

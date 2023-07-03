@@ -1,4 +1,5 @@
 import upgradeTracks from '~/data/item-upgrade-tracks.json';
+
 import { type Item } from './Item';
 import { type ItemUpgradeTrack } from './ItemUpgradeTrack';
 

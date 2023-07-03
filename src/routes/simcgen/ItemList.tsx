@@ -1,13 +1,14 @@
 import { component$, useContext } from '@builder.io/qwik';
-import { SectionTitle } from '~/components/selection-title/SectionTitle';
 import { css, cx } from 'styled-system/css';
 import { flex, vstack, wrap } from 'styled-system/patterns';
+
+import { SectionTitle } from '~/components/selection-title/SectionTitle';
 import { type ItemSlot } from '~/wow/items/itemSlots';
-import { EditorStoreContext } from './EditorStore';
-import { EditableItem } from './EditableItem';
-import { Checkbox } from '~/components/inputs/Checkbox';
+
 import { CharacterInfo } from './CharacterInfo';
-import { sendEvent } from '~/components/vercel/sendEvent';
+import { EditableItem } from './EditableItem';
+import { EditorStoreContext } from './EditorStore';
+import { Options } from './Options';
 
 const itemSlotToLabel = (slot: ItemSlot) => {
   if (slot.startsWith('finger')) {
@@ -85,62 +86,6 @@ const SlotItems = component$<SlotItemsProps>(({ itemSlots }) => {
               styles={itemStyles}
             />
           ))}
-      </section>
-    </section>
-  );
-});
-
-const Options = component$(() => {
-  const { options } = useContext(EditorStoreContext);
-
-  return (
-    <section
-      class={css({
-        borderWidth: 1,
-        borderStyle: 'solid',
-        borderColor: 'dark',
-        bg: 'background.3',
-        p: 8,
-        mb: 24,
-        rounded: 4,
-        flex: '1 1 0%',
-      })}
-    >
-      <h3
-        class={css({ mb: 16, textTransform: 'uppercase', fontWeight: 'bold' })}
-      >
-        Options
-      </h3>
-
-      <section
-        class={vstack({
-          gap: 12,
-          alignItems: 'start',
-        })}
-      >
-        <Checkbox
-          label="Maximise all crafting resources (Flightstones, crests etc)"
-          help="Enables all sim variations even without enough resources"
-          checked={options.maximiseCraftingResources}
-          onChange$={(value) => {
-            options.maximiseCraftingResources = value;
-            sendEvent('ChangedOption', {
-              option: `maximiseCraftingResources:${value}`,
-            });
-          }}
-        />
-
-        <Checkbox
-          label="Only show crafted items with customisable stats"
-          help="Hides non-changeable items - more features coming soon!"
-          checked={options.showCraftedOnly}
-          onChange$={(value) => {
-            options.showCraftedOnly = value;
-            sendEvent('ChangedOption', {
-              option: `showCraftedOnly:${value}`,
-            });
-          }}
-        />
       </section>
     </section>
   );
