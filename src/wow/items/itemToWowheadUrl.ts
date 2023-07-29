@@ -22,7 +22,8 @@ const mappingConfig: MappingConfig = {
   crafting_quality: (value) => ['crafting-quality', String(Number(value) + 3)],
 };
 
-export const itemtoWowheadUrl = (item: Item) => {
+export const itemToWowheadUrl = (idOrItem: number | string | Item) => {
+  const item = typeof idOrItem === 'object' ? idOrItem : { id: idOrItem };
   const url = new URL(`https://www.wowhead.com/item=${item.id}`);
 
   Object.entries(item)

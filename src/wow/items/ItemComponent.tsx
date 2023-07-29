@@ -5,7 +5,7 @@ import { flex } from 'styled-system/patterns';
 import { WoWImage } from '~/components/image/WoWImage';
 
 import { type Item } from './Item';
-import { itemtoWowheadUrl } from './itemToWowheadUrl';
+import { itemToWowheadUrl } from './itemToWowheadUrl';
 
 interface ItemComponentProps {
   styles?: string;
@@ -26,7 +26,7 @@ export const ItemComponent = component$<ItemComponentProps>(
   ({ styles, item }) => (
     <div class={cx(styles, itemContainerStyles)}>
       <a
-        href={itemtoWowheadUrl(item)}
+        href={itemToWowheadUrl(item)}
         target="_blank"
         class={flex({ alignItems: 'center' })}
       >

@@ -48,7 +48,7 @@ export const Options = component$(() => {
         />
 
         <Checkbox
-          label="Only show crafted items with customisable stats"
+          label="Only show crafted items with customisable options"
           help="Hides non-changeable items - more features coming soon!"
           checked={options.showCraftedOnly}
           onChange$={(value) => {

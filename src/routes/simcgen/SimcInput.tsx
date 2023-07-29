@@ -7,6 +7,11 @@ import { captureException } from '~/components/sentry/capture';
 import { EditorStoreContext } from './EditorStore';
 import { simcParser } from './simcParser';
 
+import { mockInput } from './mock';
+import { Button } from '~/components/inputs/Button';
+
+const isProd = import.meta.env.PROD;
+
 export const SimcInput = component$(() => {
   const store = useContext(EditorStoreContext);
 
@@ -55,6 +60,16 @@ export const SimcInput = component$(() => {
         }}
         value={store.input}
       />
+
+      {!isProd && (
+        <Button
+          onClick$={() => {
+            store.input = mockInput;
+          }}
+        >
+          Load mock input
+        </Button>
+      )}
     </section>
   );
 });

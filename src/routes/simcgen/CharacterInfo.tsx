@@ -6,6 +6,8 @@ import { WoWImage } from '~/components/image/WoWImage';
 import { upgradeCurrencies as upgradeCurrenciesData } from '~/wow/currencies/upgradeCurrencies';
 
 import { EditorStoreContext } from './EditorStore';
+import { currencyToWowheadUrl } from '~/wow/currencies/currencyToWowheadUrl';
+import { itemToWowheadUrl } from '~/wow/items/itemToWowheadUrl';
 
 export const CharacterInfo = component$(() => {
   const {
@@ -83,11 +85,6 @@ export const CharacterInfo = component$(() => {
       >
         Warcraft Logs
       </a>
-      {/* {Object.entries(character).map(([key, value]) => (
-            <p key={key}>
-              {key} = {value}
-            </p>
-          ))} */}
 
       <h4
         class={css({
@@ -106,13 +103,22 @@ export const CharacterInfo = component$(() => {
           return (
             <tr key={id}>
               <td>
-                <WoWImage
-                  size={16}
-                  type={upgradeCurrenciesData[id].type}
-                  id={id}
-                  styles={css({ display: 'inline-block', mr: 4 })}
-                />
-                [{upgradeCurrenciesData[id].name}]
+                <a
+                  href={
+                    upgradeCurrenciesData[id].type === 'currency'
+                      ? currencyToWowheadUrl(id)
+                      : itemToWowheadUrl(id)
+                  }
+                  target="_blank"
+                >
+                  <WoWImage
+                    size={16}
+                    type={upgradeCurrenciesData[id].type}
+                    id={id}
+                    styles={css({ display: 'inline-block', mr: 4 })}
+                  />
+                  [{upgradeCurrenciesData[id].name}]
+                </a>
               </td>
               <td class={css({ pl: 12 })}>
                 {maximiseUpgradeCurrencies ? (
