@@ -1,9 +1,9 @@
-interface CraftingCurrency {
+interface UpgradeCurrency {
   type: 'currency' | 'item';
   name: string;
 }
 
-export const craftingCurrencies: Record<string, CraftingCurrency> = {
+export const upgradeCurrencies: Record<string, UpgradeCurrency> = {
   // '1792': {
   //   type: 'currency',
   //   name: 'Honor',

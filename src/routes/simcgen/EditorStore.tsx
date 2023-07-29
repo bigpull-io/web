@@ -10,17 +10,17 @@ import {
 import { sendEvent } from '~/components/vercel/sendEvent';
 import { type Item } from '~/wow/items/Item';
 
-// import { mockInput } from './mock';
+import { mockInput } from './mock';
 
 interface EditorStore {
   input: string;
   output: string;
   character: Record<string, string>;
-  craftingCurrencies: Record<string, number>;
+  upgradeCurrencies: Record<string, number>;
   equippedItems: Record<string, Item>;
   bagItems: Record<string, Item[]>;
   options: {
-    maximiseCraftingResources: boolean;
+    maximiseUpgradeCurrencies: boolean;
     showCraftedOnly: boolean;
   };
   currentStep: 'simc-input' | 'item-list';
@@ -33,16 +33,16 @@ export const EditorStoreContext = createContextId<EditorStore>(
 export const EditorStoreContextProvider = component$(() => {
   const store = useStore<EditorStore>(
     {
-      // input: mockInput,
-      input: '',
+      input: mockInput,
+      // input: '',
       output: '',
       character: {},
-      craftingCurrencies: {},
+      upgradeCurrencies: {},
       equippedItems: {},
       bagItems: {},
 
       options: {
-        maximiseCraftingResources: false,
+        maximiseUpgradeCurrencies: false,
         showCraftedOnly: false,
       },
       currentStep: 'simc-input',

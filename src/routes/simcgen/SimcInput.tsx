@@ -14,11 +14,11 @@ export const SimcInput = component$(() => {
     track(() => store.input);
 
     try {
-      const { character, craftingCurrencies, equippedItems, bagItems } =
+      const { character, upgradeCurrencies, equippedItems, bagItems } =
         simcParser(store.input);
 
       store.character = character;
-      store.craftingCurrencies = craftingCurrencies;
+      store.upgradeCurrencies = upgradeCurrencies;
       store.equippedItems = equippedItems;
       store.bagItems = bagItems;
 

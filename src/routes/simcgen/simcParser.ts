@@ -1,5 +1,5 @@
 import { captureMessage } from '~/components/sentry/capture';
-import { craftingCurrencies as craftingCurrenciesData } from '~/wow/currencies/craftingCurrencies';
+import { upgradeCurrencies as upgradeCurrenciesData } from '~/wow/currencies/upgradeCurrencies';
 import { type Item } from '~/wow/items/Item';
 import { getItemQuality } from '~/wow/items/getItemQuality';
 import { getItemUpgradeTrack } from '~/wow/items/getItemUpgradeTrack';
@@ -95,7 +95,7 @@ export const simcParser = (input: string) => {
   const character: Record<string, string> = {};
   const equippedItems: Record<string, Item> = {};
   const bagItems: Record<string, Item[]> = {};
-  const craftingCurrencies = Object.keys(craftingCurrenciesData).reduce<
+  const upgradeCurrencies = Object.keys(upgradeCurrenciesData).reduce<
     Record<string, number>
   >((acc, id) => {
     acc[id] = 0;
@@ -106,15 +106,15 @@ export const simcParser = (input: string) => {
   let lines = input.split('\n');
 
   lines.forEach((line, i) => {
-    // Crafting currencies
+    // Upgrade currencies
     if (line.startsWith('# upgrade_currencies')) {
       line
         .replace('# upgrade_currencies=', '')
         .split('/')
         .forEach((part) => {
           const [, id, amount] = part.split(':');
-          if (craftingCurrenciesData[id]) {
-            craftingCurrencies[id] = Number(amount);
+          if (upgradeCurrenciesData[id]) {
+            upgradeCurrencies[id] = Number(amount);
           }
         }, {});
 
@@ -179,7 +179,7 @@ export const simcParser = (input: string) => {
 
   return {
     character,
-    craftingCurrencies,
+    upgradeCurrencies,
     equippedItems,
     bagItems,
   };

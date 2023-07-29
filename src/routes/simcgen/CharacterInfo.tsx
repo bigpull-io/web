@@ -3,15 +3,15 @@ import { css, cx } from 'styled-system/css';
 import { flex } from 'styled-system/patterns';
 
 import { WoWImage } from '~/components/image/WoWImage';
-import { craftingCurrencies as craftingCurrenciesData } from '~/wow/currencies/craftingCurrencies';
+import { upgradeCurrencies as upgradeCurrenciesData } from '~/wow/currencies/upgradeCurrencies';
 
 import { EditorStoreContext } from './EditorStore';
 
 export const CharacterInfo = component$(() => {
   const {
     character,
-    craftingCurrencies,
-    options: { maximiseCraftingResources },
+    upgradeCurrencies,
+    options: { maximiseUpgradeCurrencies: maximiseUpgradeCurrencies },
   } = useContext(EditorStoreContext);
 
   if (!character.class) {
@@ -97,25 +97,25 @@ export const CharacterInfo = component$(() => {
           mt: 18,
         })}
       >
-        Crafting currencies
+        Upgrade currencies
       </h4>
 
-      {/* <pre>{JSON.stringify(craftingCurrencies, null, 2)}</pre> */}
+      {/* <pre>{JSON.stringify(upgradeCurrencies, null, 2)}</pre> */}
       <table>
-        {Object.entries(craftingCurrencies).map(([id, amount]) => {
+        {Object.entries(upgradeCurrencies).map(([id, amount]) => {
           return (
             <tr key={id}>
               <td>
                 <WoWImage
                   size={16}
-                  type={craftingCurrenciesData[id].type}
+                  type={upgradeCurrenciesData[id].type}
                   id={id}
                   styles={css({ display: 'inline-block', mr: 4 })}
                 />
-                [{craftingCurrenciesData[id].name}]
+                [{upgradeCurrenciesData[id].name}]
               </td>
               <td class={css({ pl: 12 })}>
-                {maximiseCraftingResources ? (
+                {maximiseUpgradeCurrencies ? (
                   <span class={css({ color: 'itemQuality.epic' })}>MAX</span>
                 ) : (
                   amount

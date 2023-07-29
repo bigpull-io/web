@@ -36,13 +36,13 @@ export const Options = component$(() => {
         })}
       >
         <Checkbox
-          label="Maximise all crafting resources (Flightstones, crests etc)"
-          help="Enables all sim variations even without enough resources"
-          checked={options.maximiseCraftingResources}
+          label="Maximise all upgrade currencies (Flightstones, crests etc)"
+          help="Enables all sim variations even without enough currencies"
+          checked={options.maximiseUpgradeCurrencies}
           onChange$={(value) => {
-            options.maximiseCraftingResources = value;
+            options.maximiseUpgradeCurrencies = value;
             sendEvent('ChangedOption', {
-              option: `maximiseCraftingResources:${value}`,
+              option: `maximiseUpgradeCurrencies:${value}`,
             });
           }}
         />
