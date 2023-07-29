@@ -10,7 +10,7 @@ import {
 import { sendEvent } from '~/components/vercel/sendEvent';
 import { type Item } from '~/wow/items/Item';
 
-import { mockInput } from './mock';
+// import { mockInput } from './mock';
 
 interface EditorStore {
   input: string;
@@ -33,8 +33,8 @@ export const EditorStoreContext = createContextId<EditorStore>(
 export const EditorStoreContextProvider = component$(() => {
   const store = useStore<EditorStore>(
     {
-      input: mockInput,
-      // input: '',
+      // input: mockInput,
+      input: '',
       output: '',
       character: {},
       upgradeCurrencies: {},
