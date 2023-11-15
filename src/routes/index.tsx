@@ -16,11 +16,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'BigPull.io - Enhance your simc export before simming',
-  meta: [
-    {
-      name: 'description',
-      content: 'Enhance your simc export before simming',
-    },
-  ],
+  title: 'BigPull.io', // - Enhance your simc export before simming',
+  // meta: [
+  //   {
+  //     name: 'description',
+  //     content: 'Enhance your simc export before simming',
+  //   },
+  // ],
 };
