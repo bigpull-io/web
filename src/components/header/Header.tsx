@@ -21,7 +21,8 @@ export const Header = component$(() => {
           <BigPullLogo width={150} />
         </a>
         <p class={css({ ml: 32, color: 'grey' })}>
-          Enhance your SimulationCraft export before simming!
+          {/* Enhance your SimulationCraft export before simming! */}
+          Dragonflight S3 Mythic+ Loot Table
         </p>
       </section>
     </header>

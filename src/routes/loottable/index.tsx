@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import { SectionTitle } from '~/components/selection-title/SectionTitle';
+// import { SectionTitle } from '~/components/selection-title/SectionTitle';
 import { pageWrapper } from '~/styles/pageWrapper';
 import { LootStoreContextProvider } from './LootStore';
 import { SpecSelector } from './SpecSelector';
@@ -9,7 +9,7 @@ import { css } from 'styled-system/css';
 const Main = component$(() => {
   return (
     <section>
-      <SectionTitle title="Dragonflight S3 Mythic+ Loot Table" />
+      {/* <SectionTitle title="Dragonflight S3 Mythic+ Loot Table" /> */}
 
       <SpecSelector />
 
