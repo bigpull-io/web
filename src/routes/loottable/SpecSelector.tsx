@@ -5,7 +5,7 @@ import { css } from 'styled-system/css';
 import { token } from 'styled-system/tokens';
 import { Popover } from '~/components/inputs/Popover';
 import { SpecLabel } from './SpecLabel';
-import { Title } from '~/components/title/Title';
+// import { Title } from '~/components/title/Title';
 
 const specGroups = specs
   .reduce((acc, spec) => {
@@ -29,7 +29,7 @@ export const SpecSelector = component$(() => {
 
   return (
     <Popover isOpen={isOpen}>
-      <span q:slot="title">
+      {/* <span q:slot="title">
         <Title
           size="big"
           class={css({
@@ -38,10 +38,13 @@ export const SpecSelector = component$(() => {
         >
           Select specialisation
         </Title>
-      </span>
+      </span> */}
 
       <span q:slot="label">
-        {ctx.selectedSpec ? <SpecLabel id={ctx.selectedSpec} /> : 'All specs'}
+        {ctx.selectedSpec
+          ? specs.find((s) => s.id === ctx.selectedSpec)!.name
+          : 'Select specialisation'}
+        {/* {ctx.selectedSpec ? <SpecLabel id={ctx.selectedSpec} /> : 'All specs'} */}
       </span>
 
       <div
