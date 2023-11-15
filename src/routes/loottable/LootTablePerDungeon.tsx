@@ -2,7 +2,7 @@ import { component$, useContext, useSignal } from '@builder.io/qwik';
 import { LootStoreContext } from './LootStore';
 import { SectionTitle } from '~/components/selection-title/SectionTitle';
 import { ItemComponent } from '~/wow/items/ItemComponent';
-import { StatLabel } from '~/wow/statlabel/StatLabel';
+import { type StatId, StatLabel } from '~/wow/statlabel/StatLabel';
 import type { ItemSlot } from '~/wow/items/itemSlots';
 import { css } from 'styled-system/css';
 import { Title } from '~/components/title/Title';
@@ -97,7 +97,7 @@ export const LootTablePerDungeon = component$(() => {
                       })}
                     >
                       <span q:slot="subtitle">{item.slot}</span>
-                      {item.stats.map((stat) => (
+                      {item.stats.map((stat: StatId) => (
                         <StatLabel key={stat} statId={stat} />
                       ))}
                     </ItemComponent>

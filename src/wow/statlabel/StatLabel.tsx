@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { css } from 'styled-system/css';
 import { token } from 'styled-system/tokens';
 
-type StatId = 'haste' | 'crit' | 'vers' | 'mastery';
+export type StatId = 'haste' | 'crit' | 'vers' | 'mastery';
 
 interface StatLabelProps {
   statId: StatId;
