@@ -76,8 +76,8 @@ export const ItemComponent = component$<ItemComponentProps>(
                 })}
               />
             )}
+            <Slot name="subtitle" />
           </p>
-          <Slot name="subtitle" />
         </div>
       </a>
 

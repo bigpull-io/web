@@ -1,6 +1,6 @@
 import { defineConfig } from '@pandacss/dev';
-import { Token } from '@pandacss/types';
-import { Recursive } from '@pandacss/types/dist/shared';
+import type { Token } from '@pandacss/types';
+import type { Recursive } from '@pandacss/types/dist/shared';
 
 const itemQuality = {
   poor: '#9d9d9d',
@@ -29,12 +29,28 @@ const classes = {
   warrior: '#c69b6d',
 };
 
-const toColorMap = (obj: Record<string, string>) =>
-  Object.entries(obj).reduce((acc, [name, value]) => {
-    acc[name] = { value };
+const stats = {
+  // primary: '#00e9b8',
+  // haste: '#00aeef',
+  // vers: '#ffb900',
+  // crit: '#ff3b3f',
+  // mastery: '#8b5bff',
+  primary: '#00e9b8',
+  haste: '#fff468',
+  vers: '#0070dd',
+  crit: '#c41e3a',
+  mastery: '#a330c9',
+};
 
-    return acc;
-  }, {} as Recursive<Token<string>>);
+const toColorMap = (obj: Record<string, string>) =>
+  Object.entries(obj).reduce(
+    (acc, [name, value]) => {
+      acc[name] = { value };
+
+      return acc;
+    },
+    {} as Recursive<Token<string>>
+  );
 
 const toNames = (prefix: string, obj: Record<string, string>) =>
   Object.keys(obj).map((key) => `${prefix}.${key}`);
@@ -54,6 +70,7 @@ export default defineConfig({
     tokens: {
       colors: {
         background: {
+          0: { value: '#0a0a0a' },
           1: { value: '#111' },
           2: { value: 'rgb(21, 23, 24)' },
           3: { value: 'rgb(32, 36, 37)' },
@@ -69,6 +86,7 @@ export default defineConfig({
         gold: { value: '#ffd100' },
         itemQuality: toColorMap(itemQuality),
         classes: toColorMap(classes),
+        stats: toColorMap(stats),
       },
     },
   },
