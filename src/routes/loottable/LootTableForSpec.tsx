@@ -121,7 +121,13 @@ export const LootTableForSpec = component$(() => {
                 >
                   {lootTable.value[label]?.[dungeon].map((item) => (
                     <div key={item.id} class={css({ display: 'inline-block' })}>
-                      <a href={itemToWowheadUrl(item.id)} target="_blank">
+                      <a
+                        href={itemToWowheadUrl(item.id)}
+                        target="_blank"
+                        class={css({
+                          position: 'relative',
+                        })}
+                      >
                         <WoWImage
                           type="item"
                           id={item.id}
@@ -134,6 +140,38 @@ export const LootTableForSpec = component$(() => {
                             m: 4,
                           })}
                         />
+                        {item.bis.includes(selectedSpec!) && (
+                          <div
+                            class={css({
+                              position: 'absolute',
+                              top: 4,
+                              left: 4,
+                              width: 0,
+                              height: 0,
+                              borderTopWidth: 30,
+                              borderTopStyle: 'solid',
+                              borderTopColor: 'itemQuality.legendary',
+                              borderBottom: '30px solid transparent',
+                              borderRight: '30px solid transparent',
+                            })}
+                          >
+                            <span
+                              class={css({
+                                position: 'absolute',
+                                top: -28,
+                                width: '20px',
+                                textAlign: 'center',
+                                transform: 'rotate(-45deg)',
+                                color: 'white',
+                                textTransform: 'uppercase',
+                                fontWeight: 'bold',
+                                fontSize: 12,
+                              })}
+                            >
+                              bis
+                            </span>
+                          </div>
+                        )}
                       </a>
                     </div>
                   ))}
@@ -143,6 +181,34 @@ export const LootTableForSpec = component$(() => {
           ))}
         </tbody>
       </table>
+
+      <p
+        class={css({
+          mt: 12,
+          textAlign: 'right',
+        })}
+      >
+        <i class={css({ fontStyle: 'italic' })}>Best In Slot</i> items according
+        to the{' '}
+        <a href="https://www.wowhead.com" target="_blank">
+          Wowhead
+        </a>{' '}
+        guides are marked with{' '}
+        <span
+          class={css({
+            color: 'white',
+            textTransform: 'uppercase',
+            fontWeight: 'bold',
+            fontSize: 12,
+            bg: 'itemQuality.legendary',
+            py: 2,
+            px: 4,
+          })}
+        >
+          bis
+        </span>
+      </p>
+
       {/* <section>
         <SectionTitle title="Dungeons" />
 

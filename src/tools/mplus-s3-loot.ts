@@ -2,8 +2,13 @@ import { XMLParser } from 'fast-xml-parser';
 import PQueue from 'p-queue';
 import { writeFile } from 'node:fs/promises';
 import type { ItemSlot } from '~/wow/items/itemSlots';
+import { readFileSync } from 'node:fs';
 
 const queue = new PQueue({ concurrency: 1 });
+
+const bis = JSON.parse(
+  readFileSync('./src/data/mplus-s3-bis.json', 'utf-8')
+) as Record<string, Record<'raid' | 'mplus', string[]>>;
 
 /**
  * Run this script at: https://www.wowhead.com/guide/mythic-plus-dungeons/dragonflight-season-3/loot&xml#mythic-loot-by-dungeon
@@ -278,6 +283,7 @@ interface Item {
   specs: number[];
   dungeon: Dungeon;
   stats: Stat[];
+  bis: string[];
 }
 
 const statMap: Record<string, Stat> = {
@@ -320,6 +326,12 @@ const statMap: Record<string, Stat> = {
             slot: slotIdsToSlotName[json.slot],
             specs: json.specs,
             dungeon: dungeon as Dungeon,
+            bis: Object.entries(bis).reduce((acc, [specId, { mplus }]) => {
+              if (mplus.includes(id)) {
+                acc.push(specId);
+              }
+              return acc;
+            }, [] as string[]),
             stats: Object.entries(statMap).reduce((acc, [key, value]) => {
               if (typeof jsonEquip[key] !== 'undefined') {
                 acc.push(value);

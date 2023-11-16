@@ -23,11 +23,12 @@
     "start": "vite --open --mode ssr",
     "qwik": "qwik",
     "----- TOOLS": "-----",
-    "tt": "ts-node --esm src/tools/mplus-s3-loot.ts",
+    "tt": "ts-node --esm src/tools/mplus-s3-bis.ts",
     "tools": "npm-run-all --parallel tool:*",
     "tool:item-craft-levels": "ts-node --esm src/tools/itemCraftLevels.ts",
     "tool:item-qualities": "ts-node --esm src/tools/itemQualities.ts",
-    "tool:item-upgrade-trakcs": "ts-node --esm src/tools/itemUpgradeTracks.ts"
+    "tool:item-upgrade-trakcs": "ts-node --esm src/tools/itemUpgradeTracks.ts",
+    "tool:mplus-s3-loot": "ts-node --esm src/tools/mplus-s3-loot.ts"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.2.17",
