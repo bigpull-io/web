@@ -4,6 +4,7 @@ import type { ItemSlot } from '~/wow/items/itemSlots';
 import { css } from 'styled-system/css';
 import { itemToWowheadUrl } from '~/wow/items/itemToWowheadUrl';
 import { WoWImage } from '~/components/image/WoWImage';
+import type { Item } from '~/wow/items/Item';
 
 const slotOrder: { label: string; slots: ItemSlot[] }[] = [
   { label: 'Head', slots: ['head'] },
@@ -122,7 +123,10 @@ export const LootTableForSpec = component$(() => {
                   {lootTable.value[label]?.[dungeon].map((item) => (
                     <div key={item.id} class={css({ display: 'inline-block' })}>
                       <a
-                        href={itemToWowheadUrl(item.id)}
+                        href={itemToWowheadUrl({
+                          id: item.id,
+                          bonus_ids: ['3149'],
+                        } as Item)}
                         target="_blank"
                         class={css({
                           position: 'relative',
