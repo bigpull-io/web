@@ -17,18 +17,20 @@ interface UpgradeTrack {
   console.log('[ITEM UPGRADES] Generating data...');
 
   Object.entries(data).forEach(([id, obj]: [string, any]) => {
-    if (!obj.upgrade?.name) {
+    if (!obj.upgrade?.group || !obj.upgrade?.name) {
       return;
     }
 
+    const groupId = obj.upgrade.group;
     const name = obj.upgrade.name;
 
-    upgradeTracks[name] = upgradeTracks[name] ?? {
+    upgradeTracks[groupId] = upgradeTracks[groupId] ?? {
+      name,
       max: obj.upgrade.max,
       levels: [],
     };
 
-    upgradeTracks[name].levels[obj.upgrade.level - 1] = id;
+    upgradeTracks[groupId].levels[obj.upgrade.level - 1] = id;
   });
 
   console.log('[ITEM UPGRADES] Writing to file...');

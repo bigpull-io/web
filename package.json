@@ -27,7 +27,7 @@
     "tools": "npm-run-all --parallel tool:*",
     "tool:item-craft-levels": "ts-node --esm src/tools/itemCraftLevels.ts",
     "tool:item-qualities": "ts-node --esm src/tools/itemQualities.ts",
-    "tool:item-upgrade-trakcs": "ts-node --esm src/tools/itemUpgradeTracks.ts",
+    "tool:item-upgrade-tracks": "ts-node --esm src/tools/itemUpgradeTracks.ts",
     "tool:mplus-s4-loot": "ts-node --esm src/tools/mplus-s4-loot.ts"
   },
   "devDependencies": {
