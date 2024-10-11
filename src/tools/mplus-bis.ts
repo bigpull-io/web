@@ -33,7 +33,11 @@ const parseIdsFromContent = (content: string, tabName: string) => {
   const [, rest] = content
     .replace(`[tab name=${tabName}]`, `[tab name="${tabName}"]`)
     .replace('[tab name="Raiding BiS"]', '[tab name="Raid"')
+    .replace('[tab name="Best Gear from Raid"', '[tab name="Raid"')
+    .replace(/\[tab name="[^N]*Nerub'ar Palace"/, '[tab name="Raid"')
     .replace('[tab name="Mythic+ BiS"]', '[tab name="Mythic+"')
+    .replace('[tab name="Best Gear from Mythic+"', '[tab name="Mythic+"')
+    .replace(/\[tab name="[^S]*Season 1 Mythic\+"/, '[tab name="Mythic+"')
     .replace(/\[tab name="[^A]*Awakened Raids"/, '[tab name="Raid"')
     .replace(/\[tab name="[^S]*Season 4 Mythic\+"/, '[tab name="Mythic+"')
     .split(`[tab name="${tabName}"`);
@@ -52,7 +56,7 @@ const parseIdsFromContent = (content: string, tabName: string) => {
       // .filter(
       //   ({ url }) =>
       //     url ===
-      //     'https://www.wowhead.com/guide/classes/shaman/enhancement/bis-gear'
+      //     'https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear'
       // )
       .map(({ specId, url }) =>
         queue.add(async () => {
@@ -66,6 +70,7 @@ const parseIdsFromContent = (content: string, tabName: string) => {
               (line) =>
                 line.includes('[tabs name=bis_items]') ||
                 line.includes('[tabs name=BiS_Gear]') ||
+                line.includes('[tabs name=\\"Farming Gear\\"]') ||
                 line.includes('[h3 toc=\\"BiS Gear\\"]')
             )
             ?.replace(/(.*)WH\.markup\.printHtml/, 'WH.markup.printHtml');

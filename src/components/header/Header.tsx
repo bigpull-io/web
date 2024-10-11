@@ -22,7 +22,7 @@ export const Header = component$(() => {
         </a>
         <p class={css({ ml: 32, color: 'grey' })}>
           {/* Enhance your SimulationCraft export before simming! */}
-          Dragonflight S4 Mythic+ Loot Table
+          The War Within S1 Mythic+ Loot Table
         </p>
       </section>
     </header>
