@@ -76,7 +76,8 @@ const itemIds = {
       "221085",
       "221089",
       "221074",
-      "221073"
+      "221073",
+      "221083"
   ],
   "Grim Batol": [
       "56126",
@@ -191,7 +192,8 @@ const itemIds = {
       "178737",
       "178780",
       "178735",
-      "178750"
+      "178750",
+      "178779"
   ],
   "Siege of Boralus": [
       "159461",
@@ -247,12 +249,6 @@ const itemIds = {
       "178714",
       "178712"
   ],
-  "The Necrotic Wakel": [
-      "178779"
-  ],
-  "The Stonebreaker": [
-      "221083"
-  ]
 } as const;
 
 type Dungeon = keyof typeof itemIds;
