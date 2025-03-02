@@ -9,7 +9,7 @@ import { css } from 'styled-system/css';
 const Main = component$(() => {
   return (
     <section>
-      {/* <SectionTitle title="The War Within S1 Mythic+ Loot Table" /> */}
+      {/* <SectionTitle title="The War Within S2 Mythic+ Loot Table" /> */}
 
       <SpecSelector />
 
