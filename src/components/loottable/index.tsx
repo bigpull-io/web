@@ -24,10 +24,16 @@ const Main = component$(() => {
   );
 });
 
-export const LootTable = component$(() => {
+interface LootTableProps {
+  selectedSpec?: string
+}
+
+export const LootTable = component$<LootTableProps>(({
+  selectedSpec,
+}) => {
   return (
     <section class={pageWrapper()}>
-      <LootStoreContextProvider>
+      <LootStoreContextProvider selectedSpec={selectedSpec}>
         <Main />
       </LootStoreContextProvider>
     </section>

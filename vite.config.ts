@@ -17,5 +17,10 @@ export default defineConfig(() => {
     define: {
       'import.meta.env.APP_VERSION': JSON.stringify(sha),
     },
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
   };
 });

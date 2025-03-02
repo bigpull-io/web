@@ -1,235 +1,274 @@
 [
   {
     "id": "62",
-    "name": "Arcane Mage",
+    "name": "Arcane",
+    "fullName": "Arcane Mage",
     "icon": "mage-arcane",
     "class": "mage"
   },
   {
     "id": "63",
-    "name": "Fire Mage",
+    "name": "Fire",
+    "fullName": "Fire Mage",
     "icon": "mage-fire",
     "class": "mage"
   },
   {
     "id": "64",
-    "name": "Frost Mage",
+    "name": "Frost",
+    "fullName": "Frost Mage",
     "icon": "mage-frost",
     "class": "mage"
   },
   {
     "id": "65",
-    "name": "Holy Paladin",
+    "name": "Holy",
+    "fullName": "Holy Paladin",
     "icon": "paladin-holy",
     "class": "paladin"
   },
   {
     "id": "66",
-    "name": "Protection Paladin",
+    "name": "Protection",
+    "fullName": "Protection Paladin",
     "icon": "paladin-protection",
     "class": "paladin"
   },
   {
     "id": "70",
-    "name": "Retribution Paladin",
+    "name": "Retribution",
+    "fullName": "Retribution Paladin",
     "icon": "paladin-retribution",
     "class": "paladin"
   },
   {
     "id": "71",
-    "name": "Arms Warrior",
+    "name": "Arms",
+    "fullName": "Arms Warrior",
     "icon": "warrior-arms",
     "class": "warrior"
   },
   {
     "id": "72",
-    "name": "Fury Warrior",
+    "name": "Fury",
+    "fullName": "Fury Warrior",
     "icon": "warrior-fury",
     "class": "warrior"
   },
   {
     "id": "73",
-    "name": "Protection Warrior",
+    "name": "Protection",
+    "fullName": "Protection Warrior",
     "icon": "warrior-protection",
     "class": "warrior"
   },
   {
     "id": "102",
-    "name": "Balance Druid",
+    "name": "Balance",
+    "fullName": "Balance Druid",
     "icon": "druid-balance",
     "class": "druid"
   },
   {
     "id": "103",
-    "name": "Feral Druid",
+    "name": "Feral",
+    "fullName": "Feral Druid",
     "icon": "druid-feral",
     "class": "druid"
   },
   {
     "id": "104",
-    "name": "Guardian Druid",
+    "name": "Guardian",
+    "fullName": "Guardian Druid",
     "icon": "druid-guardian",
     "class": "druid"
   },
   {
     "id": "105",
-    "name": "Restoration Druid",
+    "name": "Restoration",
+    "fullName": "Restoration Druid",
     "icon": "druid-restoration",
     "class": "druid"
   },
   {
     "id": "250",
-    "name": "Blood Death Knight",
+    "name": "Blood",
+    "fullName": "Blood Death Knight",
     "icon": "deathknight-blood",
     "class": "deathknight"
   },
   {
     "id": "251",
-    "name": "Frost Death Knight",
+    "name": "Frost",
+    "fullName": "Frost Death Knight",
     "icon": "deathknight-frost",
     "class": "deathknight"
   },
   {
     "id": "252",
-    "name": "Unholy Death Knight",
+    "name": "Unholy",
+    "fullName": "Unholy Death Knight",
     "icon": "deathknight-unholy",
     "class": "deathknight"
   },
   {
     "id": "253",
-    "name": "Beast Mastery Hunter",
+    "name": "Beast",
+    "fullName": "Beast Mastery Hunter",
     "icon": "hunter-beast-mastery",
     "class": "hunter"
   },
   {
     "id": "254",
-    "name": "Marksmanship Hunter",
+    "name": "Marksmanship",
+    "fullName": "Marksmanship Hunter",
     "icon": "hunter-marksmanship",
     "class": "hunter"
   },
   {
     "id": "255",
-    "name": "Survival Hunter",
+    "name": "Survival",
+    "fullName": "Survival Hunter",
     "icon": "hunter-survival",
     "class": "hunter"
   },
   {
     "id": "256",
-    "name": "Discipline Priest",
+    "name": "Discipline",
+    "fullName": "Discipline Priest",
     "icon": "priest-discipline",
     "class": "priest"
   },
   {
     "id": "257",
-    "name": "Holy Priest",
+    "name": "Holy",
+    "fullName": "Holy Priest",
     "icon": "priest-holy",
     "class": "priest"
   },
   {
     "id": "258",
-    "name": "Shadow Priest",
+    "name": "Shadow",
+    "fullName": "Shadow Priest",
     "icon": "priest-shadow",
     "class": "priest"
   },
   {
     "id": "259",
-    "name": "Assassination Rogue",
+    "name": "Assassination",
+    "fullName": "Assassination Rogue",
     "icon": "rogue-assassination",
     "class": "rogue"
   },
   {
     "id": "260",
-    "name": "Outlaw Rogue",
+    "name": "Outlaw",
+    "fullName": "Outlaw Rogue",
     "icon": "rogue-outlaw",
     "class": "rogue"
   },
   {
     "id": "261",
-    "name": "Subtlety Rogue",
+    "name": "Subtlety",
+    "fullName": "Subtlety Rogue",
     "icon": "rogue-subtlety",
     "class": "rogue"
   },
   {
     "id": "262",
-    "name": "Elemental Shaman",
+    "name": "Elemental",
+    "fullName": "Elemental Shaman",
     "icon": "shaman-elemental",
     "class": "shaman"
   },
   {
     "id": "263",
-    "name": "Enhancement Shaman",
+    "name": "Enhancement",
+    "fullName": "Enhancement Shaman",
     "icon": "shaman-enhancement",
     "class": "shaman"
   },
   {
     "id": "264",
-    "name": "Restoration Shaman",
+    "name": "Restoration",
+    "fullName": "Restoration Shaman",
     "icon": "shaman-restoration",
     "class": "shaman"
   },
   {
     "id": "265",
-    "name": "Affliction Warlock",
+    "name": "Affliction",
+    "fullName": "Affliction Warlock",
     "icon": "warlock-affliction",
     "class": "warlock"
   },
   {
     "id": "266",
-    "name": "Demonology Warlock",
+    "name": "Demonology",
+    "fullName": "Demonology Warlock",
     "icon": "warlock-demonology",
     "class": "warlock"
   },
   {
     "id": "267",
-    "name": "Destruction Warlock",
+    "name": "Destruction",
+    "fullName": "Destruction Warlock",
     "icon": "warlock-destruction",
     "class": "warlock"
   },
   {
     "id": "268",
-    "name": "Brewmaster Monk",
+    "name": "Brewmaster",
+    "fullName": "Brewmaster Monk",
     "icon": "monk-brewmaster",
     "class": "monk"
   },
   {
     "id": "269",
-    "name": "Windwalker Monk",
+    "name": "Windwalker",
+    "fullName": "Windwalker Monk",
     "icon": "monk-windwalker",
     "class": "monk"
   },
   {
     "id": "270",
-    "name": "Mistweaver Monk",
+    "name": "Mistweaver",
+    "fullName": "Mistweaver Monk",
     "icon": "monk-mistweaver",
     "class": "monk"
   },
   {
     "id": "577",
-    "name": "Havoc Demon Hunter",
+    "name": "Havoc",
+    "fullName": "Havoc Demon Hunter",
     "icon": "demonhunter-havoc",
     "class": "demonhunter"
   },
   {
     "id": "578",
-    "name": "Vengeance Demon Hunter",
+    "name": "Vengeance",
+    "fullName": "Vengeance Demon Hunter",
     "icon": "demonhunter-vengeance",
     "class": "demonhunter"
   },
   {
     "id": "1467",
-    "name": "Devastation Evoker",
+    "name": "Devastation",
+    "fullName": "Devastation Evoker",
     "icon": "evoker-devastation",
     "class": "evoker"
   },
   {
     "id": "1468",
-    "name": "Preservation Evoker",
+    "name": "Preservation",
+    "fullName": "Preservation Evoker",
     "icon": "evoker-preservation",
     "class": "evoker"
   },
   {
     "id": "1473",
-    "name": "Augmentation Evoker",
+    "name": "Augmentation",
+    "fullName": "Augmentation Evoker",
     "icon": "evoker-augmentation",
     "class": "evoker"
   }

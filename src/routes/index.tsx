@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
 // import { SimcGen } from './simcgen/SimcGen';
-import { LootTable } from './loottable/index';
+import { LootTable } from '../components/loottable/index';
 
 export default component$(() => {
   return (

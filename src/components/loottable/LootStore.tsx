@@ -16,10 +16,14 @@ interface LootStore {
 export const LootStoreContext =
   createContextId<LootStore>('bigpull.loot.store');
 
-export const LootStoreContextProvider = component$(() => {
+interface LootStoreContextProviderProps {
+  selectedSpec?: string
+}
+
+export const LootStoreContextProvider = component$<LootStoreContextProviderProps>(({ selectedSpec }) => {
   const store = useStore<LootStore>(
     {
-      selectedSpec: undefined,
+      selectedSpec,
       items,
     },
     { deep: true }

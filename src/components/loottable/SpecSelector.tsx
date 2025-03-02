@@ -42,7 +42,7 @@ export const SpecSelector = component$(() => {
 
       <span q:slot="label">
         {ctx.selectedSpec
-          ? specs.find((s) => s.id === ctx.selectedSpec)!.name
+          ? specs.find((s) => s.id === ctx.selectedSpec)!.fullName
           : 'Select specialisation'}
         {/* {ctx.selectedSpec ? <SpecLabel id={ctx.selectedSpec} /> : 'All specs'} */}
       </span>
@@ -62,7 +62,7 @@ export const SpecSelector = component$(() => {
             })}
           >
             {group.specs.map((spec) => (
-              <div
+              <a
                 key={spec.id}
                 class={css({
                   display: 'inline-block',
@@ -92,13 +92,14 @@ export const SpecSelector = component$(() => {
                         '--c': token(`colors.classes.${spec.class}` as any),
                       }
                 }
-                onClick$={() => {
-                  ctx.selectedSpec = spec.id;
-                  isOpen.value = false;
-                }}
+                // onClick$={() => {
+                //   ctx.selectedSpec = spec.id;
+                //   isOpen.value = false;
+                // }}
+                href={`/loot/${spec.fullName.toLowerCase().replace(/ /g, '-')}`}
               >
                 <SpecLabel id={spec.id} />
-              </div>
+              </a>
             ))}
           </div>
         ))}
