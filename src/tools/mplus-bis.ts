@@ -32,6 +32,8 @@ const urls = specs.map(({ id, icon }) => {
 const parseIdsFromContent = (content: string, tabName: string) => {
   const [, rest] = content
     .replace(`[tab name=${tabName}]`, `[tab name="${tabName}"]`)
+    .replace(`[tab name="For Raid" icon=inv_achievement_zone_undermine]`, `[tab name="Raid"]`)
+    .replace(`[tab name="For Mythic+" icon=inv_relics_hourglass]`, `[tab name="Mythic+"]`)
     .replace('[tab name="Raiding BiS"]', '[tab name="Raid"')
     .replace('[tab name="Best Gear from Raid"', '[tab name="Raid"')
     .replace(/\[tab name="[^N]*Nerub'ar Palace"/, '[tab name="Raid"')
@@ -48,7 +50,7 @@ const parseIdsFromContent = (content: string, tabName: string) => {
 };
 
 (async () => {
-  console.log('[M+ S4 BIS] Fetching...');
+  console.log('[M+ BIS] Fetching...');
   const bis: Record<SpecId, Record<'raid' | 'mplus', string[]>> = {};
 
   await Promise.all(
@@ -60,7 +62,7 @@ const parseIdsFromContent = (content: string, tabName: string) => {
       // )
       .map(({ specId, url }) =>
         queue.add(async () => {
-          console.log('[M+ S4 Loot] Fetching', url);
+          console.log('[M+ Loot] Fetching', url);
           const resp = await fetch(url);
           const html = await resp.text();
 
@@ -107,9 +109,9 @@ const parseIdsFromContent = (content: string, tabName: string) => {
 
   await queue.onIdle();
 
-  console.log('[M+ 4 BIS] Writing to file...');
+  console.log('[M+ BIS] Writing to file...');
 
-  await writeFile('./src/data/mplus-s4-bis.json', JSON.stringify(bis));
+  await writeFile('./src/data/mplus-bis.json', JSON.stringify(bis));
 
-  console.log('[M+ S4 BIS] Done!');
+  console.log('[M+ BIS] Done!');
 })();

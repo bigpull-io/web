@@ -6,7 +6,7 @@ import {
   useStore,
 } from '@builder.io/qwik';
 
-import items from '~/data/mplus-s4-loot.json';
+import items from '~/data/mplus-loot.json';
 
 interface LootStore {
   selectedSpec: string | undefined;
