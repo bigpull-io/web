@@ -65,6 +65,7 @@ export const LootTableForSpec = component$(() => {
     <>
       <table
         class={css({
+          minWidth: 1168,
           borderCollapse: 'collapse',
         })}
       >
