@@ -111,7 +111,7 @@ const parseIdsFromContent = (content: string, tabName: string) => {
 
   console.log('[M+ BIS] Writing to file...');
 
-  await writeFile('./src/data/mplus-bis.json', JSON.stringify(bis));
+  await writeFile('./src/data/mplus-bis.json', JSON.stringify(bis, null, 2));
 
   console.log('[M+ BIS] Done!');
 })();

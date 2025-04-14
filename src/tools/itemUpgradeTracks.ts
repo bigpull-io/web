@@ -37,7 +37,7 @@ interface UpgradeTrack {
 
   await writeFile(
     './src/data/item-upgrade-tracks.json',
-    JSON.stringify(upgradeTracks)
+    JSON.stringify(upgradeTracks, null, 2)
   );
 
   console.log('[ITEM UPGRADES] Done!');

@@ -355,7 +355,7 @@ const statMap: Record<string, Stat> = {
 
   console.log('[M+ Loot] Writing to file...');
 
-  await writeFile('./src/data/mplus-loot.json', JSON.stringify(items));
+  await writeFile('./src/data/mplus-loot.json', JSON.stringify(items, null, 2));
 
   console.log('[M+ Loot] Done!');
 })();
