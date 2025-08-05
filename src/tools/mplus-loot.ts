@@ -286,7 +286,7 @@ const statMap: Record<string, Stat> = {
         queue.add(async () => {
           console.log('[M+ Loot] Fetching item', id);
           const resp = await fetch(
-            `https://www.wowhead.com/ptr-2/item=${id}&xml`
+            `https://www.wowhead.com/item=${id}&xml`
           );
           const text = await resp.text();
           const data = new XMLParser().parse(text);
