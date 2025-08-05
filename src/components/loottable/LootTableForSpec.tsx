@@ -10,7 +10,8 @@ const slotOrder: { label: string; slots: ItemSlot[] }[] = [
   { label: 'Head', slots: ['head'] },
   { label: 'Neck', slots: ['neck'] },
   { label: 'Shoulder', slots: ['shoulder'] },
-  { label: 'Back', slots: ['back'] },
+  // No back in S3
+  // { label: 'Back', slots: ['back'] },
   { label: 'Chest', slots: ['chest'] },
   { label: 'Wrist', slots: ['wrist'] },
   { label: 'Hands', slots: ['hands'] },
