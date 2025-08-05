@@ -32,16 +32,25 @@ const urls = specs.map(({ id, icon }) => {
 const parseIdsFromContent = (content: string, tabName: string) => {
   const [, rest] = content
     .replace(`[tab name=${tabName}]`, `[tab name="${tabName}"]`)
-    .replace(`[tab name="For Raid" icon=inv_achievement_zone_undermine]`, `[tab name="Raid"]`)
-    .replace(`[tab name="For Mythic+" icon=inv_relics_hourglass]`, `[tab name="Mythic+"]`)
+    .replace(
+      `[tab name="For Raid" icon=inv_achievement_zone_undermine]`,
+      `[tab name="Raid"]`
+    )
+    .replace(
+      `[tab name="For Mythic+" icon=inv_relics_hourglass]`,
+      `[tab name="Mythic+"]`
+    )
     .replace('[tab name="Raiding BiS"]', '[tab name="Raid"')
     .replace('[tab name="Best Gear from Raid"', '[tab name="Raid"')
     .replace(/\[tab name="[^N]*Nerub'ar Palace"/, '[tab name="Raid"')
+    .replace('[tab name="Gear from Raid"', '[tab name="Raid"')
+
     .replace('[tab name="Mythic+ BiS"]', '[tab name="Mythic+"')
     .replace('[tab name="Best Gear from Mythic+"', '[tab name="Mythic+"')
     .replace(/\[tab name="[^S]*Season 1 Mythic\+"/, '[tab name="Mythic+"')
     .replace(/\[tab name="[^A]*Awakened Raids"/, '[tab name="Raid"')
     .replace(/\[tab name="[^S]*Season 4 Mythic\+"/, '[tab name="Mythic+"')
+    .replace('[tab name="Gear from Mythic+"', '[tab name="Mythic+"')
     .split(`[tab name="${tabName}"`);
 
   const [text] = rest.split('[/tab]');

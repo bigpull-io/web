@@ -26,7 +26,10 @@ const url =
 
   console.log('[ITEM QUALITIES] Writing to file...');
 
-  await writeFile('./src/data/item-qualities.json', JSON.stringify(qualities, null, 2));
+  await writeFile(
+    './src/data/item-qualities.json',
+    JSON.stringify(qualities, null, 2)
+  );
 
   console.log('[ITEM QUALITIES] Done!');
 })();

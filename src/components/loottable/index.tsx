@@ -9,7 +9,7 @@ import { css } from 'styled-system/css';
 const Main = component$(() => {
   return (
     <section>
-      {/* <SectionTitle title="The War Within S2 Mythic+ Loot Table" /> */}
+      {/* <SectionTitle title="The War Within S3 Mythic+ Loot Table" /> */}
 
       <SpecSelector />
 
@@ -25,12 +25,10 @@ const Main = component$(() => {
 });
 
 interface LootTableProps {
-  selectedSpec?: string
+  selectedSpec?: string;
 }
 
-export const LootTable = component$<LootTableProps>(({
-  selectedSpec,
-}) => {
+export const LootTable = component$<LootTableProps>(({ selectedSpec }) => {
   return (
     <section class={pageWrapper()}>
       <LootStoreContextProvider selectedSpec={selectedSpec}>

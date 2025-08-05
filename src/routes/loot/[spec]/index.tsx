@@ -1,12 +1,18 @@
 import { component$ } from '@builder.io/qwik';
-import { RequestHandler, useLocation, type DocumentHead } from '@builder.io/qwik-city';
+import {
+  RequestHandler,
+  useLocation,
+  type DocumentHead,
+} from '@builder.io/qwik-city';
 import specs from '~/data/specs.json';
 
 import { LootTable } from '~/components/loottable/index';
 
 const getSpec = (slug: string) => {
-  return specs.find((spec) => spec.fullName.toLowerCase().replace(/ /g, '-') === slug);
-}
+  return specs.find(
+    (spec) => spec.fullName.toLowerCase().replace(/ /g, '-') === slug
+  );
+};
 
 export default component$(() => {
   const { params } = useLocation();
@@ -27,7 +33,7 @@ export default component$(() => {
   );
 });
 
-export const head: DocumentHead = ({ params,  }) => {
+export const head: DocumentHead = ({ params }) => {
   const spec = getSpec(params.spec)!;
 
   return {

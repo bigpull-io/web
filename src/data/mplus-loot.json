@@ -1,167 +1,29 @@
 [
   {
-    "id": "221054",
-    "name": "Chef Chewie's Towel",
-    "slot": "back",
-    "specs": [
-      261,
-      254,
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      255,
-      577,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      250,
-      257,
-      1452,
-      73,
-      258,
-      264,
-      1444,
-      66,
-      265,
-      1446,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473,
-      268,
-      1456,
-      581,
-      103,
-      104,
-      253,
-      260,
-      1448,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      251,
-      252,
-      1455,
-      71,
-      72
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "70",
-      "103",
-      "254",
-      "255",
-      "257",
-      "265",
-      "266",
-      "267",
-      "577"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221060",
-    "name": "Strapped Rescue-Keg",
+    "id": "185842",
+    "name": "Ornately Engraved Amplifier",
     "slot": "neck",
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "62",
-      "63",
-      "65",
-      "66",
-      "70",
-      "71",
-      "72",
-      "73",
-      "102",
-      "103",
-      "104",
-      "105",
-      "251",
-      "252",
-      "253",
-      "255",
-      "256",
-      "258",
-      "262",
-      "263",
-      "265",
-      "267",
-      "269",
-      "578",
-      "1468",
-      "1473"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221198",
-    "name": "85-Year Tenure Ring",
-    "slot": "finger1",
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "72",
-      "103",
-      "257",
-      "259",
-      "265",
-      "267",
-      "1468",
-      "1473"
-    ],
-    "stats": [
-      "mastery",
       "crit"
     ]
   },
   {
-    "id": "221055",
-    "name": "Cinderbrew-Soaked Cowl",
-    "slot": "head",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "257"
-    ],
+    "id": "185840",
+    "name": "Seal of the Panoply",
+    "slot": "finger1",
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "mastery",
       "vers"
     ]
   },
   {
-    "id": "221072",
-    "name": "Moneymaking Businessmantle",
+    "id": "185804",
+    "name": "Harmonious Spaulders",
     "slot": "shoulder",
     "specs": [
       62,
@@ -177,16 +39,66 @@
       267,
       1454
     ],
-    "dungeon": "Cinderbrew Meadery",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
-      "mastery",
+      "haste",
       "crit"
     ]
   },
   {
-    "id": "221067",
-    "name": "Punctured Apiary Gloves",
+    "id": "185782",
+    "name": "Robes of Midnight Bargains",
+    "slot": "chest",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "185814",
+    "name": "Auctioneer's Counting Bracers",
+    "slot": "wrist",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "185793",
+    "name": "Cyphered Gloves",
     "slot": "hands",
     "specs": [
       62,
@@ -202,19 +114,41 @@
       267,
       1454
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "62",
-      "63"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "haste",
       "mastery"
     ]
   },
   {
-    "id": "221201",
-    "name": "Fireproof Cinderbee Perch",
+    "id": "185807",
+    "name": "Pan-Dimensional Packing Cord",
+    "slot": "waist",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "185802",
+    "name": "Breakbeat Shoulderguards",
     "slot": "shoulder",
     "specs": [
       102,
@@ -234,18 +168,45 @@
       260,
       261
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "105"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
-      "haste",
-      "vers"
+      "mastery",
+      "crit"
     ]
   },
   {
-    "id": "221053",
-    "name": "Battle-Scarred Fisticuffs",
+    "id": "185786",
+    "name": "So'azmi's Fractal Vest",
+    "slot": "chest",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185817",
+    "name": "Bracers of Autonomous Classification",
     "slot": "wrist",
     "specs": [
       102,
@@ -265,20 +226,45 @@
       260,
       261
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "105",
-      "261",
-      "269"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
-      "haste",
-      "mastery"
+      "mastery",
+      "crit"
     ]
   },
   {
-    "id": "221058",
-    "name": "Brewery Toiler's Waistband",
+    "id": "185791",
+    "name": "Knuckle-Dusting Handwraps",
+    "slot": "hands",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "185809",
+    "name": "Venza's Powderbelt",
     "slot": "waist",
     "specs": [
       102,
@@ -298,80 +284,16 @@
       260,
       261
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "103",
-      "104",
-      "105",
-      "260",
-      "578"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221071",
-    "name": "Backbreaking Bootstrappers",
-    "slot": "feet",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "103",
-      "261",
-      "269"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221070",
-    "name": "\"Azeroth's Greatest BEE.E.O.\" Cap",
-    "slot": "head",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Cinderbrew Meadery",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
-      "mastery",
-      "vers"
+      "haste",
+      "crit"
     ]
   },
   {
-    "id": "221059",
-    "name": "I'pa's Pale Aleguards",
+    "id": "185816",
+    "name": "Confiscated Bracers of Concealment",
     "slot": "wrist",
     "specs": [
       253,
@@ -387,20 +309,66 @@
       255,
       263
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "254",
-      "264",
-      "1467"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
-      "crit",
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185794",
+    "name": "Gavel Pounders",
+    "slot": "hands",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "haste",
       "vers"
     ]
   },
   {
-    "id": "221065",
-    "name": "Pollen-Lugger Treads",
+    "id": "185808",
+    "name": "Discount Mail-Order Belt",
+    "slot": "waist",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "185800",
+    "name": "Orbitwarp Culottes",
     "slot": "legs",
     "specs": [
       253,
@@ -416,72 +384,41 @@
       255,
       263
     ],
-    "dungeon": "Cinderbrew Meadery",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
-      "haste",
-      "crit"
+      "crit",
+      "vers"
     ]
   },
   {
-    "id": "221052",
-    "name": "Foam-Ridden Pauldrons",
-    "slot": "shoulder",
+    "id": "185789",
+    "name": "Sabatons of Measured Time",
+    "slot": "feet",
     "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "72"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "mastery",
       "vers"
     ]
   },
   {
-    "id": "221069",
-    "name": "Slashproof Business Plate",
-    "slot": "chest",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "65",
-      "71",
-      "73"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "221064",
-    "name": "Fuzzy Cindercuffs",
+    "id": "185815",
+    "name": "Vambraces of Verification",
     "slot": "wrist",
     "specs": [
       65,
@@ -497,20 +434,91 @@
       1446,
       73
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "65",
-      "71",
-      "251"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "haste",
-      "crit"
+      "mastery"
     ]
   },
   {
-    "id": "221061",
-    "name": "Hops-Laden Greatboots",
+    "id": "185792",
+    "name": "Achillite's Unbreakable Grip",
+    "slot": "hands",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "185806",
+    "name": "Improvisational Cinch",
+    "slot": "waist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185798",
+    "name": "Quantum Leapers",
+    "slot": "legs",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "185787",
+    "name": "Implacable Weatherproof Treads",
     "slot": "feet",
     "specs": [
       65,
@@ -526,74 +534,24 @@
       1446,
       73
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "70",
-      "72",
-      "251"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
-      "mastery",
-      "crit"
+      "haste",
+      "mastery"
     ]
   },
   {
-    "id": "219297",
-    "name": "Cinderbrew Stein",
+    "id": "185836",
+    "name": "Codex of the First Technique",
     "slot": "trinket1",
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "268",
-      "578"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": []
   },
   {
-    "id": "219298",
-    "name": "Ravenous Honey Buzzer",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      1444,
-      250,
-      251,
-      252,
-      1455,
-      1451,
-      66,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "260",
-      "261"
-    ],
-    "stats": []
-  },
-  {
-    "id": "219299",
-    "name": "Synergistic Brewterializer",
+    "id": "185845",
+    "name": "First Class Healing Distributor",
     "slot": "trinket1",
     "specs": [
       62,
@@ -623,36 +581,49 @@
       1468,
       1473
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "62",
-      "64",
-      "1473"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": []
   },
   {
-    "id": "221068",
-    "name": "Profit Divider",
-    "slot": "main_hand",
-    "specs": [
-      251,
-      72,
-      1451,
-      66,
-      73,
-      1446
-    ],
-    "dungeon": "Cinderbrew Meadery",
+    "id": "185846",
+    "name": "Miniscule Mailemental in an Envelope",
+    "slot": "trinket1",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
-      "crit",
-      "vers"
+      "haste"
     ]
   },
   {
-    "id": "221062",
-    "name": "Scalding Queenmaker's Shiv",
+    "id": "185844",
+    "name": "Ticking Sack of Terror",
+    "slot": "trinket1",
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "mastery"
+    ]
+  },
+  {
+    "id": "185777",
+    "name": "Fang of Alcruux",
+    "slot": "main_hand",
+    "specs": [
+      259,
+      1453,
+      261
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185821",
+    "name": "Gluttonous Rondel",
     "slot": "main_hand",
     "specs": [
       62,
@@ -674,724 +645,56 @@
       1468,
       1473
     ],
-    "dungeon": "Cinderbrew Meadery",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221051",
-    "name": "Crusher of the Unsettled",
-    "slot": "main_hand",
-    "specs": [
-      260,
-      268,
-      1450,
-      269,
-      263
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "263",
-      "269"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221063",
-    "name": "Hivebreaker's Dipper",
-    "slot": "main_hand",
-    "specs": [
-      250,
-      251,
-      252,
-      1455,
-      70,
-      71,
-      72
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [],
-    "stats": [
-      "haste",
+      "crit",
       "vers"
     ]
   },
   {
-    "id": "221057",
-    "name": "Sticky Stirring Stick",
+    "id": "185778",
+    "name": "First Fist of the So Cartel",
     "slot": "main_hand",
     "specs": [
-      255,
-      103,
-      104,
-      1447,
+      577,
+      260,
       268,
+      581,
+      1456,
+      1450,
+      269,
+      263
+    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "185780",
+    "name": "Interrogator's Flensing Blade",
+    "slot": "main_hand",
+    "specs": [
+      577,
+      260,
+      268,
+      581,
+      1450,
       269
     ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "221056",
-    "name": "Vessel of the Beverage",
-    "slot": "off_hand",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Cinderbrew Meadery",
-    "bis": [
-      "64",
-      "270"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221109",
-    "name": "Candlebearer's Shroud",
-    "slot": "back",
-    "specs": [
-      261,
-      254,
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      255,
-      577,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      250,
-      257,
-      1452,
-      73,
-      258,
-      264,
-      1444,
-      66,
-      265,
-      1446,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473,
-      268,
-      1456,
-      581,
-      103,
-      104,
-      253,
-      260,
-      1448,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      251,
-      252,
-      1455,
-      71,
-      72
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "64",
-      "264"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221103",
-    "name": "Flickering Glowtorc",
-    "slot": "neck",
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "64",
-      "250",
-      "254",
-      "257",
-      "259",
-      "260",
-      "261",
-      "264",
-      "268",
-      "577",
-      "1467"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221099",
-    "name": "Wick's Golden Loop",
-    "slot": "finger1",
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "62",
-      "63",
-      "64",
-      "65",
-      "73",
-      "104",
-      "105",
-      "252",
-      "256",
-      "260",
-      "264",
-      "578"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221115",
-    "name": "Photophobic Amice",
-    "slot": "shoulder",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "64"
-    ],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "221104",
-    "name": "Gleamwax Shackles",
-    "slot": "wrist",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "257",
-      "258",
-      "265",
-      "266",
-      "267"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221108",
-    "name": "King's Malicious Clutches",
-    "slot": "hands",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "64",
-      "265",
-      "266",
-      "267"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "221102",
-    "name": "Shimmering Glimclaws",
-    "slot": "hands",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "102",
-      "105"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221107",
-    "name": "Gleamkeeper's Buckle",
-    "slot": "waist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "259",
-      "577"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221114",
-    "name": "Shadowspawn Leggings",
-    "slot": "legs",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "578"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "221113",
-    "name": "Gloaming Visage",
-    "slot": "head",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Darkflame Cleft",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
       "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "221098",
-    "name": "Mole Knight's Grimemail",
-    "slot": "shoulder",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221101",
-    "name": "Scent-Strong Candlecord",
-    "slot": "waist",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221106",
-    "name": "Gloomstomper's Sabatons",
-    "slot": "feet",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221100",
-    "name": "Waxsteel Greathelm",
-    "slot": "head",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "66",
-      "71"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221112",
-    "name": "Caliginous Claspers",
-    "slot": "hands",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "219307",
-    "name": "Remnant of Darkness",
-    "slot": "trinket1",
-    "dungeon": "Darkflame Cleft",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "219304",
-    "name": "Conductor's Wax Whistle",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      269,
-      259,
-      1453,
-      263,
-      1444
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "219305",
-    "name": "Carved Blazikon Wax",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "62",
-      "63",
-      "64",
-      "65",
-      "102",
-      "105",
-      "256",
-      "257",
-      "258",
-      "262",
-      "264",
-      "265",
-      "266",
-      "267",
-      "1467",
-      "1468"
-    ],
-    "stats": []
-  },
-  {
-    "id": "219306",
-    "name": "Burin of the Candle King",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "256"
-    ],
-    "stats": []
-  },
-  {
-    "id": "221105",
-    "name": "Dark Zone Headtaker",
-    "slot": "main_hand",
-    "specs": [
-      262,
-      270,
-      65,
-      1467,
-      1451,
-      1468,
-      264,
-      1473,
-      1465
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "262",
-      "1473"
-    ],
-    "stats": [
-      "mastery",
       "crit"
     ]
   },
   {
-    "id": "221096",
-    "name": "Rail Rider's Bisector",
+    "id": "185824",
+    "name": "Blade of Grievous Harm",
     "slot": "main_hand",
     "specs": [
       251,
@@ -1401,56 +704,32 @@
       73,
       1446
     ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "66"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "haste",
       "crit"
     ]
   },
   {
-    "id": "221110",
-    "name": "Crepuscular Carver",
+    "id": "185783",
+    "name": "Yasahm the Riftbreaker",
     "slot": "main_hand",
     "specs": [
-      259,
-      1453,
-      261
+      253,
+      1448,
+      254
     ],
-    "dungeon": "Darkflame Cleft",
+    "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [],
     "stats": [
       "haste",
-      "mastery"
+      "vers"
     ]
   },
   {
-    "id": "221111",
-    "name": "Poleaxe of Somber Fate",
-    "slot": "main_hand",
-    "specs": [
-      250,
-      251,
-      252,
-      1455,
-      70,
-      71,
-      72
-    ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "72"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221097",
-    "name": "Arcane Scuttle",
+    "id": "185812",
+    "name": "Acoustically Alluring Censer",
     "slot": "off_hand",
     "specs": [
       62,
@@ -1480,19 +759,351 @@
       1468,
       1473
     ],
-    "dungeon": "Darkflame Cleft",
-    "bis": [
-      "257"
-    ],
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [],
     "stats": [
       "crit",
       "vers"
     ]
   },
   {
-    "id": "234507",
-    "name": "Electrician's Siphoning Filter",
-    "slot": "back",
+    "id": "185820",
+    "name": "Cabochon of the Infinite Flight",
+    "slot": "neck",
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "185813",
+    "name": "Signet of Collapsing Stars",
+    "slot": "finger1",
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "185795",
+    "name": "Cowl of Branching Fate",
+    "slot": "head",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "185799",
+    "name": "Hyperlight Leggings",
+    "slot": "legs",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "185788",
+    "name": "Codebreaker's Cunning Sandals",
+    "slot": "feet",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "185797",
+    "name": "Rakishly Tipped Tricorne",
+    "slot": "head",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "185801",
+    "name": "Anomalous Starlit Breeches",
+    "slot": "legs",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "185790",
+    "name": "Treads of Titanic Deconversion",
+    "slot": "feet",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185796",
+    "name": "Dragonbane Diadem",
+    "slot": "head",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "185805",
+    "name": "Hylbrande's Retrofitted Shoulderguards",
+    "slot": "shoulder",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185785",
+    "name": "Embrace of the Relicbinder",
+    "slot": "chest",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "185776",
+    "name": "Hooktail's Commanding Gaze",
+    "slot": "head",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "185803",
+    "name": "Stoneflesh Spaulders",
+    "slot": "shoulder",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "185784",
+    "name": "Novaburst Warplate",
+    "slot": "chest",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "185818",
+    "name": "So'leah's Secret Technique",
+    "slot": "trinket1",
     "specs": [
       261,
       254,
@@ -1547,553 +1158,94 @@
       71,
       72
     ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "66",
-      "72",
-      "102",
-      "105",
-      "251",
-      "252",
-      "256",
-      "258",
-      "259",
-      "262",
-      "263",
-      "269",
-      "1468",
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "234496",
-    "name": "Saboteur's Rubber Jacket",
-    "slot": "chest",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "234495",
-    "name": "Razorchoke Slacks",
-    "slot": "legs",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "234497",
-    "name": "Nonconductive Kill-o-Socks",
-    "slot": "feet",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "63"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "234498",
-    "name": "Waterworks Filtration Mask",
-    "slot": "head",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "105"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "234500",
-    "name": "Mechanized Junkpads",
-    "slot": "shoulder",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "234499",
-    "name": "Disturbed Kelp Wraps",
-    "slot": "wrist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "103",
-      "259"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "234503",
-    "name": "Skystreak's Hidden Missiles",
-    "slot": "shoulder",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "1473"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "234502",
-    "name": "Bront's Singed Blastcoat",
-    "slot": "chest",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "262",
-      "263",
-      "1468",
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "234501",
-    "name": "Portable Power Generator",
-    "slot": "waist",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "253",
-      "255",
-      "264",
-      "1467"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "234506",
-    "name": "Muckdiver's Wading Plate",
-    "slot": "chest",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "251"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "234504",
-    "name": "Jumpstarter's Scaffold-Scrapers",
-    "slot": "hands",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "72",
-      "250"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "234505",
-    "name": "Venture Contractor's Floodlight",
-    "slot": "waist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "65",
-      "71",
-      "73"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "232541",
-    "name": "Improvised Seaforium Pacemaker",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      1444,
-      250,
-      251,
-      252,
-      1455,
-      1451,
-      66,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "70",
-      "71",
-      "72",
-      "103",
-      "104",
-      "250",
-      "251",
-      "252",
-      "253",
-      "255",
-      "259",
-      "260",
-      "261",
-      "263",
-      "268",
-      "269",
-      "577",
-      "578"
-    ],
-    "stats": []
-  },
-  {
-    "id": "232545",
-    "name": "Gigazap's Zap-Cap",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Operation: Floodgate",
+    "dungeon": "Tazavesh: So'leah's Gambit",
     "bis": [],
     "stats": []
   },
   {
-    "id": "232542",
-    "name": "Darkfuse Medichopper",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "232543",
-    "name": "Ringing Ritual Mud",
-    "slot": "trinket1",
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "104",
-      "268",
-      "578"
-    ],
-    "stats": [
-      "vers"
-    ]
-  },
-  {
-    "id": "234493",
-    "name": "Geezle's Coercive Volt-ohmmeter",
+    "id": "185823",
+    "name": "Fatebreaker, Destroyer of Futures",
     "slot": "main_hand",
     "specs": [
-      259,
-      1453,
-      261
+      260,
+      268,
+      1450,
+      269,
+      263
     ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "260"
-    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
     "stats": [
-      "haste",
+      "mastery",
       "vers"
     ]
   },
   {
-    "id": "234491",
-    "name": "Sonic Ka-BOOM!-erang",
+    "id": "185841",
+    "name": "Timetwister Tulwar",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      63,
+      1451,
+      64,
+      270,
+      266,
+      65,
+      265,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "185819",
+    "name": "Event Horizon's Edge",
     "slot": "main_hand",
     "specs": [
       577,
       581,
       1456
     ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "577",
-      "578"
-    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
     "stats": [
       "haste",
-      "crit"
+      "mastery"
     ]
   },
   {
-    "id": "234494",
-    "name": "Gallytech Turbo-Tiller",
+    "id": "185810",
+    "name": "Skyreaver, Greataxe of the Keepers",
+    "slot": "main_hand",
+    "specs": [
+      250,
+      251,
+      252,
+      1455,
+      70,
+      71,
+      72
+    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "185779",
+    "name": "Spire of Expurgation",
     "slot": "main_hand",
     "specs": [
       255,
@@ -2103,1088 +1255,16 @@
       268,
       269
     ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "255",
-      "268"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "234490",
-    "name": "Circuit Breaker",
-    "slot": "main_hand",
-    "specs": [
-      250,
-      251,
-      252,
-      1455,
-      70,
-      71,
-      72
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "250",
-      "252"
-    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
     "stats": [
       "haste",
       "mastery"
     ]
   },
   {
-    "id": "234492",
-    "name": "Keeza's 'B.' B.B.B.F.G",
-    "slot": "main_hand",
-    "specs": [
-      253,
-      1448,
-      254
-    ],
-    "dungeon": "Operation: Floodgate",
-    "bis": [
-      "253",
-      "254"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "199921",
-    "name": "Trashmaster's Mantle",
-    "slot": "back",
-    "specs": [
-      261,
-      254,
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      255,
-      577,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      250,
-      257,
-      1452,
-      73,
-      258,
-      264,
-      1444,
-      66,
-      265,
-      1446,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473,
-      268,
-      1456,
-      581,
-      103,
-      104,
-      253,
-      260,
-      1448,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      251,
-      252,
-      1455,
-      71,
-      72
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "73",
-      "261",
-      "268"
-    ],
-    "stats": [
-      "vers"
-    ]
-  },
-  {
-    "id": "235226",
-    "name": "Inventor's Ingenious Trifocals",
-    "slot": "head",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "62",
-      "64"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "235812",
-    "name": "Shoulderguards of Fraying Sanity",
-    "slot": "shoulder",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "62"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "168989",
-    "name": "Hyperthread Wristwraps",
-    "slot": "wrist",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "63"
-    ],
-    "stats": []
-  },
-  {
-    "id": "168969",
-    "name": "Operator's Mitts",
-    "slot": "hands",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "168958",
-    "name": "Ringmaster's Cummerbund",
-    "slot": "waist",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "62",
-      "63",
-      "64",
-      "256"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "168988",
-    "name": "Royal Attendant's Trousers",
-    "slot": "legs",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "168964",
-    "name": "Hyperthread Boots",
-    "slot": "feet",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "62",
-      "256",
-      "257"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "235224",
-    "name": "Mekgineer's Mindbending Headgear",
-    "slot": "head",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "104",
-      "270"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "235811",
-    "name": "Extravagant Epaulets",
-    "slot": "shoulder",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "259"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "168985",
-    "name": "Self-Sanitizing Handwraps",
-    "slot": "hands",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "168986",
-    "name": "Mad King's Sporran",
-    "slot": "waist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "268",
-      "270"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "168957",
-    "name": "Mekgineer's Championship Belt",
-    "slot": "waist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "269"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "168968",
-    "name": "Flame-Seared Leggings",
-    "slot": "legs",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "105",
-      "269"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "168975",
-    "name": "Machinist's Treasured Treads",
-    "slot": "feet",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "577"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "235223",
-    "name": "Psychogenic Prognosticator's Lenses",
-    "slot": "head",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "264",
-      "1467"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "235810",
-    "name": "Circuit-Linked Chainmail",
-    "slot": "chest",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "168967",
-    "name": "Gold-Coated Superconductors",
-    "slot": "wrist",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "168971",
-    "name": "Swift Pneumatic Grips",
-    "slot": "hands",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "262",
-      "263"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "168983",
-    "name": "Maniacal Monarch's Girdle",
-    "slot": "waist",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "263",
-      "1468",
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "168974",
-    "name": "Self-Repairing Cuisses",
-    "slot": "legs",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "168982",
-    "name": "Regal Mekanospurs",
-    "slot": "feet",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "235222",
-    "name": "Apogee Inventor's Goggles",
-    "slot": "head",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "251"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "235809",
-    "name": "Mechanized Plate Chasse",
-    "slot": "chest",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "168978",
-    "name": "Anodized Deflectors",
-    "slot": "wrist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "168980",
-    "name": "Gauntlets of Absolute Authority",
-    "slot": "hands",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "70",
-      "71",
-      "251"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "168976",
-    "name": "Automatic Waist Tightener",
-    "slot": "waist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "70",
-      "251"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "168966",
-    "name": "Heavy Alloy Legplates",
-    "slot": "legs",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "168972",
-    "name": "Pyroclastic Greatboots",
-    "slot": "feet",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "250"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "232546",
-    "name": "K.U.-J.0.'s Flame Vents",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      1444,
-      250,
-      251,
-      252,
-      1455,
-      1451,
-      66,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "168965",
-    "name": "Modular Platinum Plating",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      1444,
-      250,
-      251,
-      252,
-      1455,
-      1451,
-      66,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "169344",
-    "name": "Ingenious Mana Battery",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "168962",
-    "name": "Apex Perforator",
-    "slot": "main_hand",
-    "specs": [
-      259,
-      1453,
-      261
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "259"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "168955",
-    "name": "Electrifying Cognitive Amplifier",
-    "slot": "main_hand",
-    "specs": [
-      102,
-      258,
-      65,
-      105,
-      262,
-      270,
-      1451,
-      256,
-      257,
-      264,
-      1444,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "65",
-      "256",
-      "264"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "169608",
-    "name": "Tearing Sawtooth Blade",
-    "slot": "main_hand",
-    "specs": [
-      251,
-      72,
-      1451,
-      66,
-      73,
-      1446
-    ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "73",
-      "251"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "168973",
-    "name": "Neural Synapse Enhancer",
+    "id": "185822",
+    "name": "Staff of Fractured Spacetime",
     "slot": "main_hand",
     "specs": [
       62,
@@ -3210,141 +1290,38 @@
       1468,
       1473
     ],
-    "dungeon": "Operation: Mechagon",
-    "bis": [
-      "62",
-      "258"
-    ],
+    "dungeon": "Tazavesh: So'leah's Gambit",
+    "bis": [],
     "stats": [
       "haste",
       "mastery"
     ]
   },
   {
-    "id": "159287",
-    "name": "Cloak of Questionable Intent",
-    "slot": "back",
-    "specs": [
-      261,
-      254,
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      255,
-      577,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      250,
-      257,
-      1452,
-      73,
-      258,
-      264,
-      1444,
-      66,
-      265,
-      1446,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473,
-      268,
-      1456,
-      581,
-      103,
-      104,
-      253,
-      260,
-      1448,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      251,
-      252,
-      1455,
-      71,
-      72
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "63",
-      "65",
-      "71",
-      "250",
-      "253",
-      "578",
-      "1467"
-    ],
+    "id": "178827",
+    "name": "Sin Stained Pendant",
+    "slot": "neck",
+    "dungeon": "Halls of Atonement",
+    "bis": [],
     "stats": [
       "haste",
-      "crit"
+      "mastery"
     ]
   },
   {
-    "id": "159462",
-    "name": "Footbomb Championship Ring",
+    "id": "178824",
+    "name": "Signet of the False Accuser",
     "slot": "finger1",
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "63",
-      "66",
-      "72",
-      "102",
-      "105",
-      "251",
-      "252",
-      "253",
-      "258",
-      "262",
-      "263",
-      "1473"
-    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
     "stats": [
       "haste",
       "mastery"
     ]
   },
   {
-    "id": "235418",
-    "name": "Exquisitely Aerodynamic Shoulderpads",
-    "slot": "shoulder",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "235420",
-    "name": "Petticoat of the Self-Stylized Azerite Baron",
+    "id": "178813",
+    "name": "Sinlight Shroud",
     "slot": "chest",
     "specs": [
       62,
@@ -3360,47 +1337,16 @@
       267,
       1454
     ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "62"
-    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
     "stats": [
       "haste",
-      "vers"
+      "crit"
     ]
   },
   {
-    "id": "159240",
-    "name": "Rixxa's Sweat-Wicking Cuffs",
-    "slot": "wrist",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "62",
-      "64",
-      "256"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "159231",
-    "name": "Mine Rat's Handwarmers",
+    "id": "178833",
+    "name": "Stonefiend Shaper's Mitts",
     "slot": "hands",
     "specs": [
       62,
@@ -3416,16 +1362,16 @@
       267,
       1454
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
-      "mastery",
-      "vers"
+      "haste",
+      "crit"
     ]
   },
   {
-    "id": "159226",
-    "name": "Excavator's Safety Belt",
+    "id": "178822",
+    "name": "Cord of the Dark Word",
     "slot": "waist",
     "specs": [
       62,
@@ -3441,7 +1387,7 @@
       267,
       1454
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
       "crit",
@@ -3449,33 +1395,8 @@
     ]
   },
   {
-    "id": "158350",
-    "name": "Rowdy Reveler's Legwraps",
-    "slot": "legs",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "159235",
-    "name": "Deranged Alchemist's Slippers",
+    "id": "178831",
+    "name": "Slippers of Leavened Station",
     "slot": "feet",
     "specs": [
       62,
@@ -3491,21 +1412,16 @@
       267,
       1454
     ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "258",
-      "265",
-      "266",
-      "267"
-    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
     "stats": [
       "haste",
-      "mastery"
+      "crit"
     ]
   },
   {
-    "id": "235419",
-    "name": "High Altitude Turban",
+    "id": "178817",
+    "name": "Hood of Refracted Shadows",
     "slot": "head",
     "specs": [
       102,
@@ -3525,83 +1441,16 @@
       260,
       261
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
       "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "235417",
-    "name": "Venture Co. Plenipotentiary Vest",
-    "slot": "chest",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "259",
-      "268"
-    ],
-    "stats": [
-      "mastery",
       "crit"
     ]
   },
   {
-    "id": "158353",
-    "name": "Servo-Arm Bindings",
-    "slot": "wrist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "104",
-      "260",
-      "268",
-      "577",
-      "578"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "159305",
-    "name": "Corrosive Handler's Gloves",
+    "id": "178832",
+    "name": "Gloves of Haunting Fixation",
     "slot": "hands",
     "specs": [
       102,
@@ -3621,16 +1470,16 @@
       260,
       261
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
-      "mastery",
-      "crit"
+      "haste",
+      "vers"
     ]
   },
   {
-    "id": "159725",
-    "name": "Unscrupulous Geologist's Belt",
+    "id": "178823",
+    "name": "Waistcord of Dark Devotion",
     "slot": "waist",
     "specs": [
       102,
@@ -3650,17 +1499,17 @@
       260,
       261
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
       "mastery",
-      "crit"
+      "vers"
     ]
   },
   {
-    "id": "159336",
-    "name": "Mercenary Miner's Boots",
-    "slot": "feet",
+    "id": "242473",
+    "name": "Spittle-Stained Trousers",
+    "slot": "legs",
     "specs": [
       102,
       1447,
@@ -3679,22 +1528,41 @@
       260,
       261
     ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "104",
-      "105",
-      "260",
-      "268",
-      "270"
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "178816",
+    "name": "Nathrian Usurper's Mask",
+    "slot": "head",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
     ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
     "stats": [
       "haste",
       "vers"
     ]
   },
   {
-    "id": "235416",
-    "name": "Crashguard Spaulders",
+    "id": "178821",
+    "name": "Mantle of Ephemeral Visages",
     "slot": "shoulder",
     "specs": [
       253,
@@ -3710,21 +1578,16 @@
       255,
       263
     ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "253",
-      "254",
-      "263",
-      "1468"
-    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
     "stats": [
       "mastery",
-      "crit"
+      "vers"
     ]
   },
   {
-    "id": "235460",
-    "name": "Shrapnel-Dampening Chestguard",
+    "id": "178815",
+    "name": "Soaring Decimator's Hauberk",
     "slot": "chest",
     "specs": [
       253,
@@ -3740,17 +1603,17 @@
       255,
       263
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
-      "haste",
-      "vers"
+      "mastery",
+      "crit"
     ]
   },
   {
-    "id": "158357",
-    "name": "Bindings of Enraged Earth",
-    "slot": "wrist",
+    "id": "178830",
+    "name": "Shardskin Sabatons",
+    "slot": "feet",
     "specs": [
       253,
       262,
@@ -3765,7 +1628,249 @@
       255,
       263
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "178812",
+    "name": "Wing Commander's Helmet",
+    "slot": "head",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "178820",
+    "name": "Pauldrons of Unleashed Pride",
+    "slot": "shoulder",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "178814",
+    "name": "Breastplate of Otherworldly Influence",
+    "slot": "chest",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "178818",
+    "name": "Halkias's Towering Pillars",
+    "slot": "legs",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "178825",
+    "name": "Pulsating Stoneheart",
+    "slot": "trinket1",
+    "specs": [
+      103,
+      255,
+      577,
+      260,
+      1448,
+      581,
+      268,
+      1456,
+      104,
+      1447,
+      253,
+      261,
+      254,
+      1450,
+      70,
+      269,
+      259,
+      1453,
+      263,
+      1444,
+      250,
+      251,
+      252,
+      1455,
+      1451,
+      66,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "178826",
+    "name": "Sunblood Amethyst",
+    "slot": "trinket1",
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "haste"
+    ]
+  },
+  {
+    "id": "178834",
+    "name": "Stoneguardian's Morningstar",
+    "slot": "main_hand",
+    "specs": [
+      260,
+      268,
+      1450,
+      269,
+      263
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "178829",
+    "name": "Nathrian Ferula",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      256,
+      63,
+      64,
+      270,
+      257,
+      1452,
+      258,
+      262,
+      264,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "178828",
+    "name": "Nathrian Tabernacle",
+    "slot": "off_hand",
+    "specs": [
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Halls of Atonement",
     "bis": [],
     "stats": [
       "crit",
@@ -3773,334 +1878,8 @@
     ]
   },
   {
-    "id": "159357",
-    "name": "Linked Pummeler Grips",
-    "slot": "hands",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "255",
-      "1473"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "159361",
-    "name": "Shalebiter Interlinked Chain",
-    "slot": "waist",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "262"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "158341",
-    "name": "Chemical Blaster's Legguards",
-    "slot": "legs",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "262",
-      "263",
-      "1468",
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "235415",
-    "name": "Skyscorcher Pauldrons",
-    "slot": "shoulder",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "250",
-      "251"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "158359",
-    "name": "Stonefury Vambraces",
-    "slot": "wrist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "66",
-      "70",
-      "72",
-      "252"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "155864",
-    "name": "Power-Assisted Vicegrips",
-    "slot": "hands",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "159451",
-    "name": "Leadplate Legguards",
-    "slot": "legs",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "251"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "159679",
-    "name": "Sabatons of Rampaging Elements",
-    "slot": "feet",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "65",
-      "66",
-      "71",
-      "73"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "159612",
-    "name": "Azerokk's Resonating Heart",
-    "slot": "trinket1",
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "254",
-      "263"
-    ],
-    "stats": [
-      "mastery"
-    ]
-  },
-  {
-    "id": "159611",
-    "name": "Razdunk's Big Red Button",
-    "slot": "trinket1",
-    "specs": [
-      66,
-      250,
-      251,
-      1455,
-      252,
-      72,
-      1451,
-      70,
-      71,
-      1446,
-      73
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "159641",
-    "name": "G3T-00t",
-    "slot": "main_hand",
-    "specs": [
-      102,
-      258,
-      65,
-      105,
-      262,
-      270,
-      1451,
-      256,
-      257,
-      264,
-      1444,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [
-      "257",
-      "1468"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "159638",
-    "name": "Electro-Arm Bludgeoner",
-    "slot": "main_hand",
-    "specs": [
-      250,
-      251,
-      252,
-      1455,
-      70,
-      71,
-      72
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "159639",
-    "name": "P.A.C.I.F.I.S.T. Mk7",
-    "slot": "main_hand",
-    "specs": [
-      253,
-      1448,
-      254
-    ],
-    "dungeon": "The MOTHERLODE!!",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "159663",
-    "name": "G0-4W4Y Crowd Repeller",
+    "id": "185811",
+    "name": "Package Protector",
     "slot": "off_hand",
     "specs": [
       73,
@@ -4112,11 +1891,490 @@
       1444,
       66
     ],
-    "dungeon": "The MOTHERLODE!!",
+    "dungeon": "Halls of Atonement",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "242491",
+    "name": "Whispers of K'aresh",
+    "slot": "finger1",
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "242477",
+    "name": "Wasteland Devotee's Wrappings",
+    "slot": "head",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
     "bis": [],
     "stats": [
       "haste",
       "crit"
+    ]
+  },
+  {
+    "id": "242468",
+    "name": "Al'dani Attendant's Gauze",
+    "slot": "wrist",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "242490",
+    "name": "Ancient Oracle's Caress",
+    "slot": "hands",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "242486",
+    "name": "Mantle of Wounded Fate",
+    "slot": "shoulder",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242482",
+    "name": "Reinforced Stalkerhide Vest",
+    "slot": "chest",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242472",
+    "name": "Consumed Wastelander's Epaulets",
+    "slot": "shoulder",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "242488",
+    "name": "Tunic of Sworn Revenge",
+    "slot": "chest",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242483",
+    "name": "Greaves of the Wild Pair",
+    "slot": "feet",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242475",
+    "name": "Eco-Dome Access Bands",
+    "slot": "wrist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "242479",
+    "name": "Girdle of Absolute Faith",
+    "slot": "waist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242495",
+    "name": "Incorporeal Warpclaw",
+    "slot": "trinket1",
+    "specs": [
+      103,
+      255,
+      577,
+      260,
+      1448,
+      581,
+      268,
+      1456,
+      104,
+      1447,
+      253,
+      261,
+      254,
+      1450,
+      70,
+      269,
+      259,
+      1453,
+      263,
+      1444,
+      250,
+      251,
+      252,
+      1455,
+      1451,
+      66,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "242494",
+    "name": "Lily of the Eternal Weave",
+    "slot": "trinket1",
+    "specs": [
+      261,
+      254,
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      255,
+      577,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473,
+      268,
+      1456,
+      581,
+      103,
+      104,
+      253,
+      260,
+      1448,
+      269,
+      259,
+      1453,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "242497",
+    "name": "Azhiccaran Parapodia",
+    "slot": "trinket1",
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste"
+    ]
+  },
+  {
+    "id": "242484",
+    "name": "Soul-Scribe's Tabiqa Dagger",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      102,
+      258,
+      105,
+      256,
+      63,
+      64,
+      257,
+      262,
+      264,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242470",
+    "name": "Mandibular Bonewhacker",
+    "slot": "main_hand",
+    "specs": [
+      251,
+      72,
+      1451,
+      66,
+      73,
+      1446
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "242464",
+    "name": "Swarmite's Frenzied Pedicel",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      256,
+      63,
+      64,
+      265,
+      257,
+      266,
+      258,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "242481",
+    "name": "Spellstrike Warplance",
+    "slot": "main_hand",
+    "specs": [
+      255,
+      103,
+      104,
+      1447,
+      268,
+      269
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242476",
+    "name": "Taahbat's Desert Carbine",
+    "slot": "main_hand",
+    "specs": [
+      253,
+      1448,
+      254
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
     ]
   },
   {
@@ -4723,28 +2981,9 @@
     ]
   },
   {
-    "id": "221197",
-    "name": "Hoop of the Blighted",
-    "slot": "finger1",
-    "dungeon": "The Rookery",
-    "bis": [
-      "70",
-      "254",
-      "265",
-      "266",
-      "267",
-      "1467",
-      "1468"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221037",
-    "name": "Charged Rookfeather Wraps",
-    "slot": "wrist",
+    "id": "221135",
+    "name": "Fanatic's Blackened Shoulderwraps",
+    "slot": "shoulder",
     "specs": [
       62,
       1449,
@@ -4759,7 +2998,7 @@
       267,
       1454
     ],
-    "dungeon": "The Rookery",
+    "dungeon": "The Dawnbreaker",
     "bis": [],
     "stats": [
       "crit",
@@ -4767,9 +3006,9 @@
     ]
   },
   {
-    "id": "221050",
-    "name": "Ancient Hardened Legwraps",
-    "slot": "legs",
+    "id": "221149",
+    "name": "Membranous Slippers",
+    "slot": "feet",
     "specs": [
       62,
       1449,
@@ -4784,21 +3023,75 @@
       267,
       1454
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "62",
-      "64",
-      "258"
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "221148",
+    "name": "Epaulets of the Clipped Wings",
+    "slot": "shoulder",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
     ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "221142",
+    "name": "Scheming Assailer's Bands",
+    "slot": "wrist",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
       "haste",
       "crit"
     ]
   },
   {
-    "id": "221049",
-    "name": "Jerkin of Awakened Stone",
-    "slot": "chest",
+    "id": "221134",
+    "name": "Shadow Congregant's Belt",
+    "slot": "waist",
     "specs": [
       102,
       1447,
@@ -4817,79 +3110,16 @@
       260,
       261
     ],
-    "dungeon": "The Rookery",
+    "dungeon": "The Dawnbreaker",
     "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "221036",
-    "name": "Tempestwind Handlers",
-    "slot": "hands",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "103",
-      "259",
-      "261",
-      "577"
-    ],
     "stats": [
       "mastery",
       "crit"
     ]
   },
   {
-    "id": "221042",
-    "name": "Squallrider's Kilt",
-    "slot": "legs",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The Rookery",
-    "bis": [],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221048",
-    "name": "Amice of Oblivion",
+    "id": "221140",
+    "name": "Shadowblight Mantle",
     "slot": "shoulder",
     "specs": [
       253,
@@ -4905,43 +3135,16 @@
       255,
       263
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "262"
-    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
       "mastery",
       "vers"
     ]
   },
   {
-    "id": "221041",
-    "name": "Boltbreaker Armor",
-    "slot": "chest",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "The Rookery",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221035",
-    "name": "Treads of the Galvanic Skysoarer",
+    "id": "221202",
+    "name": "Defiance Crusher's Sabatons",
     "slot": "feet",
     "specs": [
       253,
@@ -4957,20 +3160,16 @@
       255,
       263
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "262",
-      "263",
-      "1468"
-    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
       "haste",
-      "mastery"
+      "vers"
     ]
   },
   {
-    "id": "221047",
-    "name": "Monstrosity's Gaze",
+    "id": "221146",
+    "name": "Soaring Behemoth's Greathelm",
     "slot": "head",
     "specs": [
       65,
@@ -4986,18 +3185,41 @@
       1446,
       73
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "250"
-    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
-      "haste",
+      "crit",
       "vers"
     ]
   },
   {
-    "id": "221040",
-    "name": "Lightning-Conductor's Bands",
+    "id": "221139",
+    "name": "Dark Priest's Carapace",
+    "slot": "chest",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221133",
+    "name": "Girdle of Somber Ploys",
     "slot": "waist",
     "specs": [
       65,
@@ -5013,46 +3235,16 @@
       1446,
       73
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "66",
-      "72",
-      "250",
-      "252"
-    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
       "haste",
       "mastery"
     ]
   },
   {
-    "id": "221034",
-    "name": "Thunder-Clad Legguards",
-    "slot": "legs",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The Rookery",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "219295",
-    "name": "Sigil of Algari Concordance",
+    "id": "219312",
+    "name": "Empowering Crystal of Anub'ikkaj",
     "slot": "trinket1",
     "specs": [
       261,
@@ -5072,16 +3264,12 @@
       65,
       1451,
       256,
-      250,
       257,
       1452,
-      73,
       258,
       264,
       1444,
-      66,
       265,
-      1446,
       266,
       267,
       1454,
@@ -5097,162 +3285,59 @@
       253,
       260,
       1448,
-      70,
       269,
       259,
       1453,
-      263,
-      251,
-      252,
-      1455,
-      71,
-      72
-    ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "252"
-    ],
-    "stats": []
-  },
-  {
-    "id": "219294",
-    "name": "Charged Stormrook Plume",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      269,
-      259,
-      1453,
-      263,
-      1444
-    ],
-    "dungeon": "The Rookery",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "219296",
-    "name": "Entropic Skardyn Core",
-    "slot": "trinket1",
-    "dungeon": "The Rookery",
-    "bis": [],
-    "stats": [
-      "crit"
-    ]
-  },
-  {
-    "id": "221033",
-    "name": "Hyperactive Stormclaw",
-    "slot": "main_hand",
-    "specs": [
-      577,
-      260,
-      268,
-      581,
-      1450,
-      269,
       263
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "260",
-      "263",
-      "577"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221044",
-    "name": "Shadowskean of the Colossus",
-    "slot": "main_hand",
-    "specs": [
-      259,
-      1453,
-      261
-    ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "261"
-    ],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "221046",
-    "name": "Behemoth Kneebender",
-    "slot": "main_hand",
-    "specs": [
-      251,
-      72,
-      1451,
-      66,
-      73,
-      1446
-    ],
-    "dungeon": "The Rookery",
+    "dungeon": "The Dawnbreaker",
     "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
+    "stats": []
   },
   {
-    "id": "221038",
-    "name": "Crashing Thunderhammer",
-    "slot": "main_hand",
+    "id": "219311",
+    "name": "Void Pactstone",
+    "slot": "trinket1",
     "specs": [
+      66,
       250,
       251,
-      252,
       1455,
+      252,
+      72,
+      1451,
       70,
       71,
-      72
+      1446,
+      73
     ],
-    "dungeon": "The Rookery",
+    "dungeon": "The Dawnbreaker",
     "bis": [],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
+    "stats": []
   },
   {
-    "id": "221032",
-    "name": "Voltaic Stormcaller",
-    "slot": "main_hand",
+    "id": "219313",
+    "name": "Mereldar's Toll",
+    "slot": "trinket1",
     "specs": [
       62,
       1449,
       102,
       1447,
       105,
-      256,
       63,
       64,
       270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
       257,
       1452,
       258,
-      262,
       264,
+      1444,
       265,
       266,
       267,
@@ -5262,206 +3347,20 @@
       1468,
       1473
     ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "265",
-      "266",
-      "267",
-      "1467"
-    ],
-    "stats": [
-      "crit"
-    ]
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": []
   },
   {
-    "id": "221039",
-    "name": "Ireborne Stormbow",
+    "id": "221138",
+    "name": "Parson's Ornamented Blade",
     "slot": "main_hand",
     "specs": [
-      253,
-      1448,
-      254
+      259,
+      1453,
+      261
     ],
-    "dungeon": "The Rookery",
-    "bis": [],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221045",
-    "name": "Galebreaker Bulwark",
-    "slot": "off_hand",
-    "specs": [
-      73,
-      1446,
-      65,
-      1451,
-      262,
-      264,
-      1444,
-      66
-    ],
-    "dungeon": "The Rookery",
-    "bis": [
-      "65",
-      "264"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178870",
-    "name": "Ritual Bone Band",
-    "slot": "finger1",
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "261",
-      "268"
-    ],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "178871",
-    "name": "Bloodoath Signet",
-    "slot": "finger1",
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "62",
-      "64",
-      "65",
-      "66",
-      "71",
-      "73",
-      "104",
-      "250",
-      "251",
-      "253",
-      "256",
-      "258",
-      "260",
-      "263",
-      "264",
-      "266",
-      "578",
-      "1467"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178869",
-    "name": "Fleshfused Circle",
-    "slot": "finger1",
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "262",
-      "269",
-      "577"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "178872",
-    "name": "Ring of Perpetual Conflict",
-    "slot": "finger1",
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "70",
-      "71",
-      "250",
-      "254",
-      "255",
-      "257",
-      "259",
-      "268",
-      "577"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "178803",
-    "name": "Plague-Licked Amice",
-    "slot": "shoulder",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "178792",
-    "name": "Soulsewn Vestments",
-    "slot": "chest",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "178806",
-    "name": "Contaminated Gauze Wristwraps",
-    "slot": "wrist",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Theater of Pain",
+    "dungeon": "The Dawnbreaker",
     "bis": [],
     "stats": [
       "crit",
@@ -5469,614 +3368,27 @@
     ]
   },
   {
-    "id": "178804",
-    "name": "Fallen Empress's Cord",
-    "slot": "waist",
+    "id": "221144",
+    "name": "Zephyrous Sail Carver",
+    "slot": "main_hand",
     "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "178795",
-    "name": "Vest of Concealed Secrets",
-    "slot": "chest",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
       577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
       260,
-      261
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178805",
-    "name": "Girdle of Shattered Dreams",
-    "slot": "waist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
+      268,
+      581,
       1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
+      269
     ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "261"
-    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
       "crit",
       "vers"
     ]
   },
   {
-    "id": "178801",
-    "name": "Fearless Challenger's Leggings",
-    "slot": "legs",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "259",
-      "577"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "178797",
-    "name": "Vanquished Usurper's Footpads",
-    "slot": "feet",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "259",
-      "578"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178799",
-    "name": "Amphitheater Stalker's Hood",
-    "slot": "head",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "262",
-      "263",
-      "1468",
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "178794",
-    "name": "Triumphant Combatant's Chainmail",
-    "slot": "chest",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178798",
-    "name": "Grips of Overwhelming Beatings",
-    "slot": "hands",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178796",
-    "name": "Boots of Shuddering Matter",
-    "slot": "feet",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "253",
-      "254",
-      "255",
-      "264",
-      "1467"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "178802",
-    "name": "Unyielding Combatant's Pauldrons",
-    "slot": "shoulder",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "178793",
-    "name": "Abdominal Securing Chestguard",
-    "slot": "chest",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "250"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "178807",
-    "name": "Pit Fighter's Wristguards",
-    "slot": "wrist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "178800",
-    "name": "Galvanized Oxxein Legguards",
-    "slot": "legs",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "71",
-      "72",
-      "250",
-      "252"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "178811",
-    "name": "Grim Codex",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      1444,
-      250,
-      251,
-      252,
-      1455,
-      1451,
-      66,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "71",
-      "72",
-      "268"
-    ],
-    "stats": []
-  },
-  {
-    "id": "178808",
-    "name": "Viscera of Coalesced Hatred",
-    "slot": "trinket1",
-    "specs": [
-      66,
-      250,
-      251,
-      1455,
-      252,
-      72,
-      1451,
-      70,
-      71,
-      1446,
-      73
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "178809",
-    "name": "Soulletting Ruby",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "264",
-      "270"
-    ],
-    "stats": []
-  },
-  {
-    "id": "178810",
-    "name": "Vial of Spectral Essence",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "178863",
-    "name": "Gorestained Cleaver",
-    "slot": "main_hand",
-    "specs": [
-      251,
-      72,
-      1451,
-      66,
-      73,
-      1446
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "178789",
-    "name": "Fleshcrafter's Knife",
-    "slot": "main_hand",
-    "specs": [
-      62,
-      102,
-      258,
-      105,
-      256,
-      63,
-      64,
-      257,
-      262,
-      264,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "63",
-      "64",
-      "105",
-      "258",
-      "266"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "178864",
-    "name": "Gorebound Predator's Gavel",
-    "slot": "main_hand",
-    "specs": [
-      260,
-      268,
-      1450,
-      269,
-      263
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "268"
-    ],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "178866",
-    "name": "Dessia's Decimating Decapitator",
-    "slot": "main_hand",
-    "specs": [
-      250,
-      251,
-      252,
-      1455,
-      70,
-      71,
-      72
-    ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "70",
-      "71"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "178865",
-    "name": "Xav's Pike of Authority",
+    "id": "221137",
+    "name": "Black Shepherd's Guisarme",
     "slot": "main_hand",
     "specs": [
       255,
@@ -6086,18 +3398,32 @@
       268,
       269
     ],
-    "dungeon": "Theater of Pain",
-    "bis": [
-      "104"
-    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
     "stats": [
       "haste",
-      "vers"
+      "crit"
     ]
   },
   {
-    "id": "178868",
-    "name": "Deathwalker's Promise",
+    "id": "221143",
+    "name": "Recurved Hull Impaler",
+    "slot": "main_hand",
+    "specs": [
+      253,
+      1448,
+      254
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "221132",
+    "name": "Overflowing Umbral Pail",
     "slot": "off_hand",
     "specs": [
       62,
@@ -6127,16 +3453,84 @@
       1468,
       1473
     ],
-    "dungeon": "Theater of Pain",
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "234496",
+    "name": "Saboteur's Rubber Jacket",
+    "slot": "chest",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "234495",
+    "name": "Razorchoke Slacks",
+    "slot": "legs",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "234497",
+    "name": "Nonconductive Kill-o-Socks",
+    "slot": "feet",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Operation: Floodgate",
     "bis": [
-      "63",
-      "102",
-      "105",
-      "256",
-      "258",
-      "266",
-      "1468",
-      "1473"
+      "63"
     ],
     "stats": [
       "haste",
@@ -6144,27 +3538,938 @@
     ]
   },
   {
-    "id": "178867",
-    "name": "Barricade of the Endless Empire",
-    "slot": "off_hand",
+    "id": "234498",
+    "name": "Waterworks Filtration Mask",
+    "slot": "head",
     "specs": [
-      73,
-      1446,
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "105"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "234500",
+    "name": "Mechanized Junkpads",
+    "slot": "shoulder",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "234499",
+    "name": "Disturbed Kelp Wraps",
+    "slot": "wrist",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "103",
+      "259"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "234503",
+    "name": "Skystreak's Hidden Missiles",
+    "slot": "shoulder",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "1473"
+    ],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "234502",
+    "name": "Bront's Singed Blastcoat",
+    "slot": "chest",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "262",
+      "263",
+      "1468",
+      "1473"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "234501",
+    "name": "Portable Power Generator",
+    "slot": "waist",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "253",
+      "255",
+      "264",
+      "1467"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "234506",
+    "name": "Muckdiver's Wading Plate",
+    "slot": "chest",
+    "specs": [
       65,
       1451,
-      262,
-      264,
-      1444,
-      66
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
     ],
-    "dungeon": "Theater of Pain",
+    "dungeon": "Operation: Floodgate",
     "bis": [
-      "66",
+      "251"
+    ],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "234504",
+    "name": "Jumpstarter's Scaffold-Scrapers",
+    "slot": "hands",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "72",
+      "250"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "234505",
+    "name": "Venture Contractor's Floodlight",
+    "slot": "waist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "65",
+      "71",
       "73"
     ],
     "stats": [
       "haste",
       "crit"
+    ]
+  },
+  {
+    "id": "232541",
+    "name": "Improvised Seaforium Pacemaker",
+    "slot": "trinket1",
+    "specs": [
+      103,
+      255,
+      577,
+      260,
+      1448,
+      581,
+      268,
+      1456,
+      104,
+      1447,
+      253,
+      261,
+      254,
+      1450,
+      70,
+      269,
+      259,
+      1453,
+      263,
+      1444,
+      250,
+      251,
+      252,
+      1455,
+      1451,
+      66,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "70",
+      "71",
+      "72",
+      "103",
+      "104",
+      "250",
+      "251",
+      "252",
+      "253",
+      "255",
+      "259",
+      "260",
+      "261",
+      "263",
+      "268",
+      "269",
+      "577",
+      "578"
+    ],
+    "stats": []
+  },
+  {
+    "id": "232545",
+    "name": "Gigazap's Zap-Cap",
+    "slot": "trinket1",
+    "specs": [
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "232542",
+    "name": "Darkfuse Medichopper",
+    "slot": "trinket1",
+    "specs": [
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "232543",
+    "name": "Ringing Ritual Mud",
+    "slot": "trinket1",
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "104",
+      "268",
+      "578"
+    ],
+    "stats": [
+      "vers"
+    ]
+  },
+  {
+    "id": "234493",
+    "name": "Geezle's Coercive Volt-ohmmeter",
+    "slot": "main_hand",
+    "specs": [
+      259,
+      1453,
+      261
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "260"
+    ],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "234491",
+    "name": "Sonic Ka-BOOM!-erang",
+    "slot": "main_hand",
+    "specs": [
+      577,
+      581,
+      1456
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "577",
+      "578"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "234494",
+    "name": "Gallytech Turbo-Tiller",
+    "slot": "main_hand",
+    "specs": [
+      255,
+      103,
+      104,
+      1447,
+      268,
+      269
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "255",
+      "268"
+    ],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "234490",
+    "name": "Circuit Breaker",
+    "slot": "main_hand",
+    "specs": [
+      250,
+      251,
+      252,
+      1455,
+      70,
+      71,
+      72
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "250",
+      "252"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "234492",
+    "name": "Keeza's 'B.' B.B.B.F.G",
+    "slot": "main_hand",
+    "specs": [
+      253,
+      1448,
+      254
+    ],
+    "dungeon": "Operation: Floodgate",
+    "bis": [
+      "253",
+      "254"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "221158",
+    "name": "Burrower's Cinch",
+    "slot": "waist",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "221164",
+    "name": "Archaic Venomancer's Legwraps",
+    "slot": "legs",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "221163",
+    "name": "Whispering Mask",
+    "slot": "head",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "221157",
+    "name": "Unbreakable Beetlebane Bindings",
+    "slot": "wrist",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "221153",
+    "name": "Gauzewoven Legguards",
+    "slot": "legs",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "221156",
+    "name": "Cryptbound Headpiece",
+    "slot": "head",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "221162",
+    "name": "Claws of Tainted Ichor",
+    "slot": "hands",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "221155",
+    "name": "Swarm Monarch's Spaulders",
+    "slot": "shoulder",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "221161",
+    "name": "Experimental Goresilk Chestguard",
+    "slot": "chest",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "221151",
+    "name": "Devourer's Gauntlets",
+    "slot": "hands",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "219316",
+    "name": "Ceaseless Swarmgland",
+    "slot": "trinket1",
+    "specs": [
+      103,
+      255,
+      577,
+      260,
+      1448,
+      581,
+      268,
+      1456,
+      104,
+      1447,
+      253,
+      261,
+      254,
+      1450,
+      70,
+      269,
+      259,
+      1453,
+      263,
+      1444,
+      250,
+      251,
+      252,
+      1455,
+      1451,
+      66,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "219317",
+    "name": "Harvester's Edict",
+    "slot": "trinket1",
+    "specs": [
+      261,
+      254,
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      255,
+      577,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473,
+      268,
+      1456,
+      581,
+      103,
+      104,
+      253,
+      260,
+      1448,
+      269,
+      259,
+      1453,
+      263
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "219314",
+    "name": "Ara-Kara Sacbrood",
+    "slot": "trinket1",
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "haste"
+    ]
+  },
+  {
+    "id": "221150",
+    "name": "Arachnoid Soulcleaver",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      63,
+      1451,
+      64,
+      270,
+      266,
+      65,
+      265,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "221160",
+    "name": "Blight Hunter's Scalpelglaive",
+    "slot": "main_hand",
+    "specs": [
+      577,
+      581,
+      1456
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "221159",
+    "name": "Harvester's Interdiction",
+    "slot": "main_hand",
+    "specs": [
+      255,
+      103,
+      104,
+      1447,
+      268,
+      269
+    ],
+    "dungeon": "Ara-Kara, City of Echoes",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
     ]
   }
 ]
