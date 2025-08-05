@@ -24,7 +24,7 @@ const mappingConfig: MappingConfig = {
 
 export const itemToWowheadUrl = (idOrItem: number | string | Item) => {
   const item = typeof idOrItem === 'object' ? idOrItem : { id: idOrItem };
-  const url = new URL(`https://www.wowhead.com/ptr-2/item=${item.id}`);
+  const url = new URL(`https://www.wowhead.com/item=${item.id}`);
 
   Object.entries(item)
     .filter(([key]) => !IGNORED_KEYS.includes(key as ItemProp))
