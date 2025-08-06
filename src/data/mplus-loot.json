@@ -2161,537 +2161,15 @@
     ]
   },
   {
-    "id": "242491",
-    "name": "Whispers of K'aresh",
-    "slot": "finger1",
-    "dungeon": "Eco-Dome Al'dani",
+    "id": "252009",
+    "name": "Bloodstained Memento",
+    "slot": "neck",
+    "dungeon": "Priory of the Sacred Flame",
     "bis": [
-      "63",
-      "102",
-      "105",
-      "250",
-      "252",
-      "258",
-      "262",
-      "263",
-      "265",
-      "266",
-      "267",
-      "269",
-      "1473"
+      "260",
+      "264",
+      "268"
     ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "242477",
-    "name": "Wasteland Devotee's Wrappings",
-    "slot": "head",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "63",
-      "258",
-      "265"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "242468",
-    "name": "Al'dani Attendant's Gauze",
-    "slot": "wrist",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "242490",
-    "name": "Ancient Oracle's Caress",
-    "slot": "hands",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "256",
-      "257"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "242486",
-    "name": "Mantle of Wounded Fate",
-    "slot": "shoulder",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "270"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "242482",
-    "name": "Reinforced Stalkerhide Vest",
-    "slot": "chest",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "261"
-    ],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "242472",
-    "name": "Consumed Wastelander's Epaulets",
-    "slot": "shoulder",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "1473"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "242488",
-    "name": "Tunic of Sworn Revenge",
-    "slot": "chest",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "242483",
-    "name": "Greaves of the Wild Pair",
-    "slot": "feet",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "264"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "242475",
-    "name": "Eco-Dome Access Bands",
-    "slot": "wrist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "242479",
-    "name": "Girdle of Absolute Faith",
-    "slot": "waist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "242495",
-    "name": "Incorporeal Warpclaw",
-    "slot": "trinket1",
-    "specs": [
-      103,
-      255,
-      577,
-      260,
-      1448,
-      581,
-      268,
-      1456,
-      104,
-      1447,
-      253,
-      261,
-      254,
-      1450,
-      70,
-      269,
-      259,
-      1453,
-      263,
-      1444,
-      250,
-      251,
-      252,
-      1455,
-      1451,
-      66,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "260"
-    ],
-    "stats": []
-  },
-  {
-    "id": "242494",
-    "name": "Lily of the Eternal Weave",
-    "slot": "trinket1",
-    "specs": [
-      261,
-      254,
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      255,
-      577,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473,
-      268,
-      1456,
-      581,
-      103,
-      104,
-      253,
-      260,
-      1448,
-      269,
-      259,
-      1453,
-      263
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "256",
-      "258",
-      "259",
-      "261",
-      "262",
-      "268",
-      "269",
-      "1473"
-    ],
-    "stats": []
-  },
-  {
-    "id": "242497",
-    "name": "Azhiccaran Parapodia",
-    "slot": "trinket1",
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "62",
-      "63",
-      "64",
-      "102",
-      "256",
-      "262",
-      "265",
-      "267",
-      "1467"
-    ],
-    "stats": [
-      "haste"
-    ]
-  },
-  {
-    "id": "242484",
-    "name": "Soul-Scribe's Tabiqa Dagger",
-    "slot": "main_hand",
-    "specs": [
-      62,
-      102,
-      258,
-      105,
-      256,
-      63,
-      64,
-      257,
-      262,
-      264,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "62",
-      "64"
-    ],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "242470",
-    "name": "Mandibular Bonewhacker",
-    "slot": "main_hand",
-    "specs": [
-      251,
-      72,
-      1451,
-      66,
-      73,
-      1446
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "242464",
-    "name": "Swarmite's Frenzied Pedicel",
-    "slot": "main_hand",
-    "specs": [
-      62,
-      256,
-      63,
-      64,
-      265,
-      257,
-      266,
-      258,
-      267,
-      1454
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "256",
-      "257"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "242481",
-    "name": "Spellstrike Warplance",
-    "slot": "main_hand",
-    "specs": [
-      255,
-      103,
-      104,
-      1447,
-      268,
-      269
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [
-      "255"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "242476",
-    "name": "Taahbat's Desert Carbine",
-    "slot": "main_hand",
-    "specs": [
-      253,
-      1448,
-      254
-    ],
-    "dungeon": "Eco-Dome Al'dani",
-    "bis": [],
     "stats": [
       "crit",
       "vers"
@@ -3305,517 +2783,18 @@
     ]
   },
   {
-    "id": "221135",
-    "name": "Fanatic's Blackened Shoulderwraps",
-    "slot": "shoulder",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "The Dawnbreaker",
+    "id": "251880",
+    "name": "Momma's Mega Medallion",
+    "slot": "neck",
+    "dungeon": "Operation: Floodgate",
     "bis": [
-      "63"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221149",
-    "name": "Membranous Slippers",
-    "slot": "feet",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "64",
+      "251",
       "256",
-      "257"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221148",
-    "name": "Epaulets of the Clipped Wings",
-    "slot": "shoulder",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "105"
-    ],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221142",
-    "name": "Scheming Assailer's Bands",
-    "slot": "wrist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "260",
-      "270",
-      "578"
-    ],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "221134",
-    "name": "Shadow Congregant's Belt",
-    "slot": "waist",
-    "specs": [
-      102,
-      1447,
-      105,
-      270,
-      1450,
-      103,
-      577,
-      581,
-      268,
-      1456,
-      104,
-      269,
-      259,
-      1453,
-      260,
-      261
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "102",
-      "259",
-      "268",
-      "577"
-    ],
-    "stats": [
-      "mastery",
-      "crit"
-    ]
-  },
-  {
-    "id": "221140",
-    "name": "Shadowblight Mantle",
-    "slot": "shoulder",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "mastery",
-      "vers"
-    ]
-  },
-  {
-    "id": "221202",
-    "name": "Defiance Crusher's Sabatons",
-    "slot": "feet",
-    "specs": [
-      253,
-      262,
-      1468,
-      1444,
-      264,
-      1473,
-      1465,
-      1467,
-      1448,
-      254,
-      255,
-      263
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "haste",
-      "vers"
-    ]
-  },
-  {
-    "id": "221146",
-    "name": "Soaring Behemoth's Greathelm",
-    "slot": "head",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221139",
-    "name": "Dark Priest's Carapace",
-    "slot": "chest",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221133",
-    "name": "Girdle of Somber Ploys",
-    "slot": "waist",
-    "specs": [
-      65,
-      1451,
-      66,
-      250,
-      251,
-      1455,
-      252,
-      70,
-      71,
-      72,
-      1446,
-      73
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "219312",
-    "name": "Empowering Crystal of Anub'ikkaj",
-    "slot": "trinket1",
-    "specs": [
-      261,
-      254,
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      255,
-      577,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473,
-      268,
-      1456,
-      581,
-      103,
-      104,
-      253,
-      260,
-      1448,
-      269,
-      259,
-      1453,
-      263
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "65",
-      "105",
-      "254",
-      "258",
-      "264",
-      "577",
-      "1468"
-    ],
-    "stats": []
-  },
-  {
-    "id": "219311",
-    "name": "Void Pactstone",
-    "slot": "trinket1",
-    "specs": [
-      66,
-      250,
-      251,
-      1455,
-      252,
-      72,
-      1451,
-      70,
-      71,
-      1446,
-      73
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "219313",
-    "name": "Mereldar's Toll",
-    "slot": "trinket1",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": []
-  },
-  {
-    "id": "221138",
-    "name": "Parson's Ornamented Blade",
-    "slot": "main_hand",
-    "specs": [
-      259,
-      1453,
-      261
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "259",
+      "257",
       "261"
     ],
     "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221144",
-    "name": "Zephyrous Sail Carver",
-    "slot": "main_hand",
-    "specs": [
-      577,
-      260,
-      268,
-      581,
-      1450,
-      269
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "260",
-      "268"
-    ],
-    "stats": [
-      "crit",
-      "vers"
-    ]
-  },
-  {
-    "id": "221137",
-    "name": "Black Shepherd's Guisarme",
-    "slot": "main_hand",
-    "specs": [
-      255,
-      103,
-      104,
-      1447,
-      268,
-      269
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "haste",
-      "crit"
-    ]
-  },
-  {
-    "id": "221143",
-    "name": "Recurved Hull Impaler",
-    "slot": "main_hand",
-    "specs": [
-      253,
-      1448,
-      254
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [],
-    "stats": [
-      "haste",
-      "mastery"
-    ]
-  },
-  {
-    "id": "221132",
-    "name": "Overflowing Umbral Pail",
-    "slot": "off_hand",
-    "specs": [
-      62,
-      1449,
-      102,
-      1447,
-      105,
-      63,
-      64,
-      270,
-      262,
-      1450,
-      65,
-      1451,
-      256,
-      257,
-      1452,
-      258,
-      264,
-      1444,
-      265,
-      266,
-      267,
-      1454,
-      1465,
-      1467,
-      1468,
-      1473
-    ],
-    "dungeon": "The Dawnbreaker",
-    "bis": [
-      "64",
-      "258",
-      "1467"
-    ],
-    "stats": [
-      "crit",
+      "mastery",
       "vers"
     ]
   },
@@ -4401,6 +3380,1061 @@
     ]
   },
   {
+    "id": "242491",
+    "name": "Whispers of K'aresh",
+    "slot": "finger1",
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "63",
+      "102",
+      "105",
+      "250",
+      "252",
+      "258",
+      "262",
+      "263",
+      "265",
+      "266",
+      "267",
+      "269",
+      "1473"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "242477",
+    "name": "Wasteland Devotee's Wrappings",
+    "slot": "head",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "63",
+      "258",
+      "265"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242468",
+    "name": "Al'dani Attendant's Gauze",
+    "slot": "wrist",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "242490",
+    "name": "Ancient Oracle's Caress",
+    "slot": "hands",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "256",
+      "257"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "242486",
+    "name": "Mantle of Wounded Fate",
+    "slot": "shoulder",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "270"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242482",
+    "name": "Reinforced Stalkerhide Vest",
+    "slot": "chest",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "261"
+    ],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242472",
+    "name": "Consumed Wastelander's Epaulets",
+    "slot": "shoulder",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "1473"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "242488",
+    "name": "Tunic of Sworn Revenge",
+    "slot": "chest",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242483",
+    "name": "Greaves of the Wild Pair",
+    "slot": "feet",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "264"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242475",
+    "name": "Eco-Dome Access Bands",
+    "slot": "wrist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "242479",
+    "name": "Girdle of Absolute Faith",
+    "slot": "waist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242495",
+    "name": "Incorporeal Warpclaw",
+    "slot": "trinket1",
+    "specs": [
+      103,
+      255,
+      577,
+      260,
+      1448,
+      581,
+      268,
+      1456,
+      104,
+      1447,
+      253,
+      261,
+      254,
+      1450,
+      70,
+      269,
+      259,
+      1453,
+      263,
+      1444,
+      250,
+      251,
+      252,
+      1455,
+      1451,
+      66,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "260"
+    ],
+    "stats": []
+  },
+  {
+    "id": "242494",
+    "name": "Lily of the Eternal Weave",
+    "slot": "trinket1",
+    "specs": [
+      261,
+      254,
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      255,
+      577,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473,
+      268,
+      1456,
+      581,
+      103,
+      104,
+      253,
+      260,
+      1448,
+      269,
+      259,
+      1453,
+      263
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "256",
+      "258",
+      "259",
+      "261",
+      "262",
+      "268",
+      "269",
+      "1473"
+    ],
+    "stats": []
+  },
+  {
+    "id": "242497",
+    "name": "Azhiccaran Parapodia",
+    "slot": "trinket1",
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "62",
+      "63",
+      "64",
+      "102",
+      "256",
+      "262",
+      "265",
+      "267",
+      "1467",
+      "1473"
+    ],
+    "stats": [
+      "haste"
+    ]
+  },
+  {
+    "id": "242484",
+    "name": "Soul-Scribe's Tabiqa Dagger",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      102,
+      258,
+      105,
+      256,
+      63,
+      64,
+      257,
+      262,
+      264,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "62",
+      "64"
+    ],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "242470",
+    "name": "Mandibular Bonewhacker",
+    "slot": "main_hand",
+    "specs": [
+      251,
+      72,
+      1451,
+      66,
+      73,
+      1446
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "242464",
+    "name": "Swarmite's Frenzied Pedicel",
+    "slot": "main_hand",
+    "specs": [
+      62,
+      256,
+      63,
+      64,
+      265,
+      257,
+      266,
+      258,
+      267,
+      1454
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "256",
+      "257"
+    ],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "242481",
+    "name": "Spellstrike Warplance",
+    "slot": "main_hand",
+    "specs": [
+      255,
+      103,
+      104,
+      1447,
+      268,
+      269
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [
+      "255"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "242476",
+    "name": "Taahbat's Desert Carbine",
+    "slot": "main_hand",
+    "specs": [
+      253,
+      1448,
+      254
+    ],
+    "dungeon": "Eco-Dome Al'dani",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221135",
+    "name": "Fanatic's Blackened Shoulderwraps",
+    "slot": "shoulder",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "63"
+    ],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221149",
+    "name": "Membranous Slippers",
+    "slot": "feet",
+    "specs": [
+      62,
+      1449,
+      1452,
+      256,
+      63,
+      64,
+      265,
+      257,
+      258,
+      266,
+      267,
+      1454
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "64",
+      "256",
+      "257"
+    ],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "221148",
+    "name": "Epaulets of the Clipped Wings",
+    "slot": "shoulder",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "105"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "221142",
+    "name": "Scheming Assailer's Bands",
+    "slot": "wrist",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "260",
+      "270",
+      "578"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "221134",
+    "name": "Shadow Congregant's Belt",
+    "slot": "waist",
+    "specs": [
+      102,
+      1447,
+      105,
+      270,
+      1450,
+      103,
+      577,
+      581,
+      268,
+      1456,
+      104,
+      269,
+      259,
+      1453,
+      260,
+      261
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "102",
+      "259",
+      "268",
+      "577"
+    ],
+    "stats": [
+      "mastery",
+      "crit"
+    ]
+  },
+  {
+    "id": "221140",
+    "name": "Shadowblight Mantle",
+    "slot": "shoulder",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "mastery",
+      "vers"
+    ]
+  },
+  {
+    "id": "221202",
+    "name": "Defiance Crusher's Sabatons",
+    "slot": "feet",
+    "specs": [
+      253,
+      262,
+      1468,
+      1444,
+      264,
+      1473,
+      1465,
+      1467,
+      1448,
+      254,
+      255,
+      263
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "haste",
+      "vers"
+    ]
+  },
+  {
+    "id": "221146",
+    "name": "Soaring Behemoth's Greathelm",
+    "slot": "head",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221139",
+    "name": "Dark Priest's Carapace",
+    "slot": "chest",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221133",
+    "name": "Girdle of Somber Ploys",
+    "slot": "waist",
+    "specs": [
+      65,
+      1451,
+      66,
+      250,
+      251,
+      1455,
+      252,
+      70,
+      71,
+      72,
+      1446,
+      73
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "251"
+    ],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "219312",
+    "name": "Empowering Crystal of Anub'ikkaj",
+    "slot": "trinket1",
+    "specs": [
+      261,
+      254,
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      255,
+      577,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473,
+      268,
+      1456,
+      581,
+      103,
+      104,
+      253,
+      260,
+      1448,
+      269,
+      259,
+      1453,
+      263
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "65",
+      "105",
+      "254",
+      "258",
+      "264",
+      "577",
+      "1468"
+    ],
+    "stats": []
+  },
+  {
+    "id": "219311",
+    "name": "Void Pactstone",
+    "slot": "trinket1",
+    "specs": [
+      66,
+      250,
+      251,
+      1455,
+      252,
+      72,
+      1451,
+      70,
+      71,
+      1446,
+      73
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "219313",
+    "name": "Mereldar's Toll",
+    "slot": "trinket1",
+    "specs": [
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": []
+  },
+  {
+    "id": "221138",
+    "name": "Parson's Ornamented Blade",
+    "slot": "main_hand",
+    "specs": [
+      259,
+      1453,
+      261
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "259",
+      "261"
+    ],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221144",
+    "name": "Zephyrous Sail Carver",
+    "slot": "main_hand",
+    "specs": [
+      577,
+      260,
+      268,
+      581,
+      1450,
+      269
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "260",
+      "268"
+    ],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
+    "id": "221137",
+    "name": "Black Shepherd's Guisarme",
+    "slot": "main_hand",
+    "specs": [
+      255,
+      103,
+      104,
+      1447,
+      268,
+      269
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
+    "id": "221143",
+    "name": "Recurved Hull Impaler",
+    "slot": "main_hand",
+    "specs": [
+      253,
+      1448,
+      254
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [],
+    "stats": [
+      "haste",
+      "mastery"
+    ]
+  },
+  {
+    "id": "221132",
+    "name": "Overflowing Umbral Pail",
+    "slot": "off_hand",
+    "specs": [
+      62,
+      1449,
+      102,
+      1447,
+      105,
+      63,
+      64,
+      270,
+      262,
+      1450,
+      65,
+      1451,
+      256,
+      257,
+      1452,
+      258,
+      264,
+      1444,
+      265,
+      266,
+      267,
+      1454,
+      1465,
+      1467,
+      1468,
+      1473
+    ],
+    "dungeon": "The Dawnbreaker",
+    "bis": [
+      "64",
+      "258",
+      "1467"
+    ],
+    "stats": [
+      "crit",
+      "vers"
+    ]
+  },
+  {
     "id": "221158",
     "name": "Burrower's Cinch",
     "slot": "waist",
@@ -4427,7 +4461,7 @@
   },
   {
     "id": "221164",
-    "name": "Archaic Venomancer's Footwraps",
+    "name": "Archaic Venomancer's Legwraps",
     "slot": "legs",
     "specs": [
       62,
@@ -4798,8 +4832,7 @@
       "260",
       "266",
       "578",
-      "1467",
-      "1473"
+      "1467"
     ],
     "stats": [
       "haste"
