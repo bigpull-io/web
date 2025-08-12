@@ -4426,7 +4426,6 @@
     "dungeon": "The Dawnbreaker",
     "bis": [
       "64",
-      "258",
       "1467"
     ],
     "stats": [
@@ -4463,7 +4462,7 @@
   },
   {
     "id": "221164",
-    "name": "Archaic Venomancer's Legwraps",
+    "name": "Archaic Venomancer's Footwraps",
     "slot": "legs",
     "specs": [
       62,
@@ -4483,6 +4482,7 @@
     "bis": [
       "63",
       "64",
+      "258",
       "265"
     ],
     "stats": [
