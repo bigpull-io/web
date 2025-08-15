@@ -2507,6 +2507,7 @@
     "dungeon": "Priory of the Sacred Flame",
     "bis": [
       "65",
+      "73",
       "250",
       "251",
       "252"
@@ -2991,7 +2992,9 @@
       263
     ],
     "dungeon": "Operation: Floodgate",
-    "bis": [],
+    "bis": [
+      "264"
+    ],
     "stats": [
       "mastery",
       "crit"
