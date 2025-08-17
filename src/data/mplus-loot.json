@@ -28,8 +28,7 @@
     "slot": "finger1",
     "dungeon": "Tazavesh: Streets of Wonder",
     "bis": [
-      "255",
-      "259"
+      "255"
     ],
     "stats": [
       "mastery",
@@ -2184,6 +2183,7 @@
       "103",
       "251",
       "254",
+      "259",
       "261",
       "268"
     ],
