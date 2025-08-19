@@ -29,7 +29,8 @@
     "tool:item-qualities": "tsx src/tools/itemQualities.ts",
     "tool:item-upgrade-tracks": "tsx src/tools/itemUpgradeTracks.ts",
     "tool:bis": "tsx src/tools/mplus-bis.ts",
-    "tool:mplus-loot": "tsx src/tools/mplus-loot.ts"
+    "tool:mplus-loot": "tsx src/tools/mplus-loot.ts",
+    "update": "npm run tools && git add . && git commit -m 'update data' && git push"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.2.17",
