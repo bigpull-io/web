@@ -27,9 +27,7 @@
     "name": "Seal of the Panoply",
     "slot": "finger1",
     "dungeon": "Tazavesh: Streets of Wonder",
-    "bis": [
-      "255"
-    ],
+    "bis": [],
     "stats": [
       "mastery",
       "vers"
@@ -873,6 +871,31 @@
     ]
   },
   {
+    "id": "246281",
+    "name": "Ring of the Panoply",
+    "slot": "finger1",
+    "dungeon": "Tazavesh: Streets of Wonder",
+    "bis": [
+      "63",
+      "65",
+      "66",
+      "71",
+      "73",
+      "103",
+      "104",
+      "250",
+      "252",
+      "253",
+      "264",
+      "578",
+      "1473"
+    ],
+    "stats": [
+      "haste",
+      "crit"
+    ]
+  },
+  {
     "id": "185820",
     "name": "Cabochon of the Infinite Flight",
     "slot": "neck",
@@ -964,36 +987,6 @@
     "stats": [
       "mastery",
       "crit"
-    ]
-  },
-  {
-    "id": "185788",
-    "name": "Codebreaker's Cunning Sandals",
-    "slot": "feet",
-    "specs": [
-      62,
-      1449,
-      1452,
-      256,
-      63,
-      64,
-      265,
-      257,
-      258,
-      266,
-      267,
-      1454
-    ],
-    "dungeon": "Tazavesh: So'leah's Gambit",
-    "bis": [
-      "63",
-      "265",
-      "266",
-      "267"
-    ],
-    "stats": [
-      "haste",
-      "vers"
     ]
   },
   {
@@ -2616,7 +2609,6 @@
     "dungeon": "Priory of the Sacred Flame",
     "bis": [
       "103",
-      "254",
       "255",
       "257",
       "262",
@@ -3189,6 +3181,7 @@
       "251",
       "252",
       "253",
+      "254",
       "255",
       "259",
       "261",
@@ -3769,6 +3762,7 @@
     ],
     "dungeon": "Eco-Dome Al'dani",
     "bis": [
+      "254",
       "256",
       "258",
       "259",
@@ -4251,7 +4245,6 @@
     "bis": [
       "65",
       "105",
-      "254",
       "258",
       "264",
       "577",
